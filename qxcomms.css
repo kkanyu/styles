@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
+.qxcomm {
+    background: #fff;
+    border: 1px solid #777;
+    color: #333;
+    font: 500 0.73rem/150% inter, sans-serif;
+    margin: 1em auto;
+    max-width: 375px;
+    width: 100%;
+}
+
+.qxcomm b,
+.qxcomm strong,
+.qxcomm i,
+.qxcomm em,
+.qxcomm s,
+.qxcomm a {
+    color: var(--accent);
+}
+
+.qxcomm ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.qxcomm ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+.qxcomm .header {
+    border-bottom: 1px solid #777;
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+}
+
+.qxcomm .header i {
+    font-size: 1.2rem;
+}
+
+.qxcomm .header i:hover,
+.qxcomm .sending i:hover,
+.qxcomm .sending .chatbox i:hover {
+    color: var(--accent);
+}
+
+.qxcomm .header .left_control,
+.qxcomm .header .right_control {
+    margin: 1em 0.5em;
+}
+
+.qxcomm .header .chatinfo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.qxcomm .header .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.qxcomm .header .icons img:first-of-type {
+    margin: 0;
+}
+
+.qxcomm .header .icons img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 50px;
+    margin: 0 0 0 -95px;
+    width: 50px;
+}
+
+.qxcomm .header .recipient {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.qxcomm .header .recipient * {
+    list-style: none;
+}
+
+.qxcomm .header .recipient h1 {
+    font-size: 130%;
+    margin: 0.5em auto 0;
+    max-width: 255px;
+}
+
+.qxcomm .header .recipient h2 {
+    color: #aaa;
+    font-size: 85%;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    margin: 0.25em 0;
+    text-transform: uppercase;
+}
+
+.qxcomm .header .recipient h2>i {
+    font-size: inherit;
+}
+
+.qxcomm .header .recipient .members {
+    border-radius: 0.5rem;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
+.qxcomm .header .recipient .members>a {
+    color: #333;
+    display: block;
+    font-size: 90%;
+    overflow-x: clip;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.qxcomm .header .recipient .members>a::before {
+    color: #57c766;
+    content: "●";
+    display: inline-block;
+    font-size: 115%;
+    margin-right: 0.35rem;
+}
+
+.qxcomm .header .recipient .members>.busy::before {
+    color: #ee3333;
+}
+
+.qxcomm .header .recipient .members>.away::before {
+    color: #eebc33;
+}
+
+.qxcomm .header .recipient .members>.offline::before {
+    color: #b9b9b9;
+}
+
+.qxcomm .sending {
+    border-top: 1px solid #333;
+    color: #aaa;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.qxcomm .sending .chatbox {
+    align-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid #777;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+.qxcomm .sending .chatbox span,
+.qxcomm .sending .chatbox i {
+    align-self: center;
+}
+
+.qxcomm .sending .send>i {
+    border-radius: 2em;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-size: 110%;
+    padding: 1em;
+}
+
+.qxcomm .sending .chatbox i {
+    color: #777;
+    font-size: 110%;
+}
+
+.qxcomm .sending .send>i:hover {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+.qxcomm .messages {
+    padding: 1em 1em;
+}
+
+.qxcomm .messages * {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.qxcomm .messages ul {
+    align-items: start;
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding-left: 1em;
+}
+
+.qxcomm .messages ul>li {
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    border: 1px solid #777;
+    display: inline-block;
+    margin: 0.5em 0;
+    max-width: 75%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.qxcomm .messages ul>li img {
+    max-width: 100%;
+}
+
+.qxcomm .messages ul>.photo {
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    border: none;
+    padding: 0;
+}
+
+.qxcomm .messages ul>.photo img {
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.qxcomm .messages ul>.emote img {
+    width: 50px;
+}
+
+.qxcomm .messages ul>.unsent {
+    background-color: rgb(245, 235, 235);
+    border-color: rgb(207, 42, 42);
+    color: rgb(207, 42, 42);
+    font-style: italic;
+}
+
+.qxcomm .unsent b,
+.qxcomm .unsent strong,
+.qxcomm .unsent i,
+.qxcomm .unsent em,
+.qxcomm .unsent s {
+    color: rgb(207, 42, 42);
+}
+
+.qxcomm .messages ul>.unsent::before {
+    color: rgb(207, 42, 42);
+    content: "[deleted]";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.qxcomm .messages ul>.note {
+    border: none;
+    max-width: 90%;
+    padding: 1em 0;
+}
+
+.qxcomm .messages ul>.note::after {
+    content: "]";
+}
+
+.qxcomm .messages ul>.note::before {
+    content: "[";
+}
+
+.qxcomm .messages ul>.audio {
+    border: none;
+    padding: 1em 0 0;
+}
+
+.qxcomm .messages ul>.audio .clip {
+    align-items: center;
+    background-color: var(--accent);
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    color: #fff;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0 0 1em;
+    padding: 0.75rem 1rem;
+}
+
+.qxcomm .messages ul>.audio .clip>i {
+    font-size: 200%;
+}
+
+.qxcomm .messages ul>.audio .transcript {
+    border-left: 2px solid #eee;
+    color: #777;
+    padding: 0 1em;
+}
+
+.qxcomm .messages ul>.audio .transcript::before {
+    content: "[transcript]";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
