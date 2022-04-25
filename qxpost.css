@@ -1,0 +1,85 @@
+.qxpost {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #444;
+    display: flex;
+    flex-flow: column wrap;
+    font: 500 0.73rem/175% 'inter';
+    line-height: 175%;
+    margin: 0 auto;
+    max-width: 375px;
+    min-width: 250px;
+    padding: 50px 65px;
+    text-align: justify;
+    width: 75%;
+}
+
+.qxpost .qcontent {
+    padding: 10px 0 20px;
+}
+
+.qxpost .qcontent p:first-child::first-line {
+    color: var(--accent);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.qxpost .qcontent p:first-child::first-line em,
+.qxpost .qcontent p:first-child::first-line i {
+    font-weight: inherit;
+}
+
+.qxpost .qcontent strong,
+.qxpost .qcontent b,
+.qxpost .qcontent em,
+.qxpost .qcontent i,
+.qxpost .qcontent s {
+    color: var(--accent);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.qxpost .qcontent strong,
+.qxpost .qcontent b {
+    font-weight: 700;
+}
+
+.qxpost .qcontent strong em,
+.qxpost .qcontent b i {
+    font-weight: inherit;
+}
+
+.qxpost .qcontent s {
+    letter-spacing: 0.75px;
+}
+
+.qxpost .qcontent u {
+    color: inherit;
+}
+
+.qxpost .qtag {
+    align-self: center;
+    border-top: 1px solid #333;
+    font-size: 110%;
+    justify-content: center;
+    max-width: 70%;
+    padding: 25px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.qxpost .qtag a::before {
+    color: #666;
+    content: "#";
+}
+
+.qxpost .qtag a {
+    color: var(--accent);
+    font-family: 'inter';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.qxpost .qtag a:hover {
+    color: #ddd;
+}
