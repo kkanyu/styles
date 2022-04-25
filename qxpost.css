@@ -6,14 +6,13 @@
     color: #444;
     display: flex;
     flex-flow: column wrap;
-    font: 500 0.73rem/175% 'inter';
-    line-height: 175%;
+    font: 500 0.72rem/175% 'inter';
     margin: 0 auto;
     max-width: 375px;
-    min-width: 250px;
+    min-width: 200px;
     padding: 50px 65px;
     text-align: justify;
-    width: 75%;
+    width: 65%;
 }
 
 .qxpost .qcontent {
