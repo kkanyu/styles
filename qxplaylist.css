@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Inconsolata&display=swap');
+.qplaylist {
+    color: #333;
+    font-family: 'inter';
+    font-size: 0.715rem;
+    line-height: 165%;
+    margin: 0 auto;
+    max-width: 420px;
+    text-align: justify;
+    width: 75%;
+}
+
+.qplaylist b,
+.qplaylist strong,
+.qplaylist i,
+.qplaylist em,
+.qplaylist s {
+    color: var(--accent);
+}
+
+.qplaylistnest {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+.qplaylist ::-webkit-scrollbar {
+    margin-right: 5px;
+    width: 1px;
+}
+
+.qplaylist ::-webkit-scrollbar-track {
+    background-color: #eeefff;
+}
+
+.qplaylist ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-width: 5px 0;
+    border: 1px solid #fff;
+}
+
+.qplaylist ::-webkit-scrollbar-thumb:hover {
+    filter: saturate(50%);
+}
+
+.qplaylist .header {
+    border-bottom: 1px solid #333;
+    display: flex;
+    gap: 0 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.qplaylist .header h1 {
+    align-self: center;
+    flex: 1;
+    max-width: 80%;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.qplaylist .header a {
+    color: #333;
+    text-decoration: none;
+}
+
+.qplaylist .header h2 {
+    align-items: center;
+    border-left: 1px solid #333;
+    display: flex;
+    font-weight: normal;
+    justify-content: center;
+    margin: 0;
+    width: 20%;
+}
+
+.qplaylist .header h2 i {
+    align-self: center;
+    color: #333;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.qplaylist .footer {
+    border-top: 1px solid #333;
+    font-size: 90%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.qplaylist .footer a {
+    color: #333;
+    font-weight: bold;
+}
+
+.qplaylist .footer a:hover,
+.qplaylist .header h2 a:hover i {
+    color: var(--accent);
+}
+
+.qplaylist .footer a:hover {
+    font-style: italic;
+}
+
+.qplaylist .content {
+    margin: 0 5px 0 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.qplaylist ol {
+    counter-reset: count;
+    list-style: none;
+    padding: 0 2rem;
+}
+
+.qplaylist ol li {
+    counter-increment: count;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem 0;
+}
+
+.qplaylist ol li::before {
+    align-content: center;
+    border: 1px solid #333;
+    content: counter(count, decimal-leading-zero);
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 1rem;
+    margin: 0 1rem 0 0;
+    padding: 20px;
+    width: 1rem;
+}
+
+.qplaylist ol li h1 {
+    align-self: center;
+    font-size: 115%;
+    margin: 0;
+}
+
+.qplaylist ol li h1 span {
+    border-top: 2px solid var(--accent);
+    display: block;
+    font-size: 85%;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+
+.qplaylist .e::before {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #333;
+    color: #333;
+    content: "e";
+    font-family: inconsolata;
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 5px 0 0;
+    padding: 2px 4px 2px 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
