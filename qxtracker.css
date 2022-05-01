@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@500&display=swap');
+@keyframes open {
+    0% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.qxtrack details[open] summary~* {
+    animation: open 0.5s ease;
+}
+
+.qxtrack details summary {
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.qxtrack details summary {
+    list-style: none;
+}
+
+.qxtrack {
+    box-sizing: border-box;
+    color: #333;
+    font-family: inter;
+    font-size: 0.75rem;
+    line-height: 145%;
+    margin: 2em auto;
+    max-width: 400px;
+    text-align: left;
+    width: 75%;
+}
+
+.qxtrack * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.qxtrack ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.qxtrack ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+.qxtrack ::-webkit-scrollbar-thumb:hover {
+    filter: saturate(50%);
+}
+
+.qxtrack .identifier h1 {
+    font-size: 175%;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.qxtrack .identifier h1 b {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.qxtrack .statlinks {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0.5em 0 1.5em;
+}
+
+.qxtrack .statlinks .leftpane {
+    flex-grow: 1;
+    font-size: 70%;
+    justify-self: flex-start;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.qxtrack .statlinks .leftpane a,
+.qxtrack .statlinks .leftpane span {
+    border: 1px solid var(--accent);
+    color: #333;
+    display: inline-block;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+}
+
+.qxtrack .statlinks .leftpane a {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+.qxtrack .statlinks .leftpane.light a {
+    background-color: var(--accent);
+    color: #333;
+    padding: 0.5em 1em;
+}
+
+.qxtrack .statlinks .links {
+    align-self: center;
+    flex-grow: 0;
+    justify-content: flex-end;
+    margin: 0 0 0 -9px;
+}
+
+.qxtrack .statlinks .links a {
+    color: #333;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+
+.qxtrack .statlinks .links .on {
+    color: rgb(255, 121, 139);
+}
+
+.qxtrack .statlinks .links a span {
+    align-self: flex-end;
+    color: #333;
+    font-family: inconsolata;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 0 -5px 2px 0;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+.qxtrack .statlinks .links a:hover svg {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+}
+
+.qxtrack .statlinks .links a>svg {
+    border: 1px solid #333;
+    padding: 0.5em;
+}
+
+.qxtrack .header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+
+.qxtrack .active,
+.qxtrack .archive {
+    border: 1px solid #333;
+    margin: 1em 0 2em;
+}
+
+.qxtrack .header h2 {
+    font-size: clamp(15px, 1.5vw, 15px);
+    text-transform: uppercase;
+}
+
+.qxtrack .header svg {
+    font-size: 150%;
+}
+
+.qxtrack .active svg {
+    color: var(--accent);
+}
+
+.qxtrack .list {
+    border-top: 1px solid #333;
+    padding: 1em;
+}
+
+.qxtrack .list ul {
+    list-style: none;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.qxtrack .list ul li {
+    margin: 0.5em;
+    text-transform: lowercase;
+}
+
+.qxtrack .list a,
+.qxtrack .list b {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.qxtrack .list a:first-of-type {
+    display: block;
+    font-size: 135%;
+}
+
+.qxtrack .list .m a:first-of-type::after {
+    background-color: rgb(238, 85, 106);
+    border-radius: 2px;
+    color: #fff;
+    content: "nsfw";
+    font-family: inconsolata;
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 0 0 5px;
+    padding: 2px 4px 2px 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.qxtrack .list .comm a:first-of-type::before {
+    border-radius: 2px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    content: "comm";
+    filter: contrast(0.5);
+    font-family: inconsolata;
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px 4px 2px 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.qxtrack .list li b::before,
+.qxtrack .list b::after {
+    color: #333;
+    font-weight: normal;
+}
+
+.qxtrack .list li b:first-of-type::before {
+    content: "in ";
+}
+
+.qxtrack .list li b:first-of-type::after {
+    content: " w/ ";
+}
