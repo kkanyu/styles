@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+.qdevtoc {
+    color: #333;
+    font-family: 'inter';
+    font-size: 0.715rem;
+    line-height: 165%;
+    margin: 0 auto;
+    max-width: 420px;
+    text-align: justify;
+    width: 75%;
+}
+
+.qdevtoc b,
+.qdevtoc strong,
+.qdevtoc i,
+.qdevtoc em,
+.qdevtoc s {
+    color: var(--accent);
+}
+
+.qdevtoc a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.qdevtoc a:hover {
+    color: var(--accent);
+}
+
+.qdevtoc .os::before,
+.qdevtoc .pl::before,
+.qdevtoc .gen::before,
+.qdevtoc .d::before {
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    padding: 0 0 2px;
+    border-bottom: 2px solid var(--accent);
+}
+
+.qdevtoc .os::before {
+    content: "oneshot";
+}
+
+.qdevtoc .pl::before {
+    content: "playlist";
+}
+
+.qdevtoc .gen::before {
+    content: "dev";
+}
+
+.qdevtoc .d::before {
+    content: "journal";
+}
+
+.qdevtocnest {
+    border: 1px solid #333;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.qdevtoc ::-webkit-scrollbar {
+    width: 1px;
+    margin-right: 5px;
+}
+
+.qdevtoc ::-webkit-scrollbar-track {
+    background-color: #eeefff;
+}
+
+.qdevtoc ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border: 1px solid #fff;
+    border-width: 5px 0;
+}
+
+.qdevtoc ::-webkit-scrollbar-thumb:hover {
+    filter: saturate(50%);
+}
+
+.qdevtoc .header {
+    border-bottom: 1px solid #333;
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
+.qdevtoc .header h1 {
+    text-transform: lowercase;
+    width: 80%;
+    max-width: 85%;
+    margin: 0 auto;
+    line-height: 125%;
+    font-size: 175%;
+}
+
+.qdevtoc .header h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    padding: 1px 5px 5px;
+}
+
+.qdevtocnest .content {
+    padding: 20px 40px 0;
+}
+
+.qdevtocnest .content * {
+    margin: 0;
+}
+
+.qdevtocnest .content p,
+.qdevtocnest .content ul,
+.qdevtocnest .content ol {
+    margin: 1em 0;
+}
+
+.qdevtocnest .content ol {
+    list-style: decimal-leading-zero;
+}
+
+.qdevtocnest .content h1 {
+    font-size: 165%;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0.5em 0;
+}
+
+.qdevtocnest .content h2 {
+    font-size: 130%;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 0 0 7px;
+    border-bottom: 2px solid var(--accent);
+    margin: 0 0 1em;
+}
+
+.qdevtocnest .content h2 {
+    font-size: 150%;
+    margin: 1em 0 0.5em;
+}
