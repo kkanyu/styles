@@ -131,13 +131,13 @@
     transform: rotate(-90deg);
 }
 
-.qxtrack .statlinks .links a:hover svg {
+.qxtrack .statlinks .links a:hover i {
     background-color: var(--accent);
     border-color: var(--accent);
     color: #fff;
 }
 
-.qxtrack .statlinks .links a>svg {
+.qxtrack .statlinks .links a>i {
     border: 1px solid #333;
     padding: 0.5em;
 }
@@ -160,11 +160,11 @@
     text-transform: uppercase;
 }
 
-.qxtrack .header svg {
+.qxtrack .header i {
     font-size: 150%;
 }
 
-.qxtrack .active svg {
+.qxtrack .active i {
     color: var(--accent);
 }
 
