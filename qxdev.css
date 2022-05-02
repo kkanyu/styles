@@ -79,6 +79,12 @@
     margin: 0;
 }
 
+.qdevelopment .notes .content a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--accent);
+}
+
 .qdevelopment .header {
     border-bottom: 1px solid #333;
     padding: 0 10px 10px;
