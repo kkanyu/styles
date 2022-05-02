@@ -116,7 +116,17 @@
     margin: 0;
 }
 
-.qdevelopmentnest .content p {
+.qdevelopmentnest .content p,
+.qdevelopmentnest .content ul,
+.qdevelopmentnest .content ol {
+    margin: 1em 0;
+}
+
+.qdevelopment .content ol {
+    padding: 0 0 0 2em;
+}
+
+.qdevelopment .content ol li {
     margin: 1em 0;
 }
 
