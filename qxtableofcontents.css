@@ -59,6 +59,12 @@
     content: "journal";
 }
 
+.qdevtoc ::marker {
+    font-weight: bold;
+    color: var(--accent);
+    font-size: 0.6rem;
+}
+
 .qdevtocnest {
     border: 1px solid #333;
     padding: 20px 0;
@@ -122,6 +128,8 @@
 
 .qdevtocnest .content ol {
     list-style: decimal-leading-zero;
+    line-height: 165%;
+    padding: 0 0 0 25px;
 }
 
 .qdevtocnest .content h1 {
