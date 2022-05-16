@@ -263,11 +263,20 @@
 }
 
 .qxcomm .messages ul>.note::after {
-    content: "]";
+    content: "]";    
+    margin: 0 0 0 0.25rem;
 }
 
 .qxcomm .messages ul>.note::before {
     content: "[";
+    margin: 0 0.25rem 0 0;
+}
+
+.qxcomm .messages ul>.note::before, .qxcomm .messages ul>.note::after {
+    color: var(--accent);
+    font-weight: 700;
+    font-style: italic;
+    display: inline-block;
 }
 
 .qxcomm .messages ul>.audio {
