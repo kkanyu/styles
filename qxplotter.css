@@ -46,7 +46,6 @@
 
 .qplot b,
 .qplot strong,
-.qplot i,
 .qplot em,
 .qplot s {
     color: var(--accent);
