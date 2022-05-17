@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
+.qplot .magical {
+    --accent: rgb(119, 115, 161);
+}
+
+.qplot .townsfolk {
+    --accent: rgb(51 119 147);
+}
+
+.qplot .farmer {
+    --accent: rgb(79, 141, 111);
+}
+
+@keyframes open {
+    0% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.qplot details[open] summary~* {
+    animation: open 0.5s ease;
+}
+
+.qplot details summary {
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.qplot {
+    box-sizing: border-box;
+    color: #333;
+    font-family: inter;
+    font-size: 0.75rem;
+    line-height: 110%;
+    margin: 2em auto 5em;
+    max-width: 400px;
+    width: 80%;
+}
+
+.qplot b,
+.qplot strong,
+.qplot i,
+.qplot em,
+.qplot s {
+    color: var(--accent);
+}
+
+.qplot a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.qplot a:hover {
+    color: #eee;
+}
+
+.qplot h2 {
+    border: 1px solid #777;
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 120%;
+    padding: 1.5em 2em;
+}
+
+.qchar ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.qchar ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+.qchar ::-webkit-scrollbar-thumb:hover {
+    filter: saturate(50%);
+}
+
+.qchar {
+    margin: 1.5em 0;
+}
+
+.char {
+    background: #fff;
+    border: 1px solid #999;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.iconbox {
+    align-items: center;
+    border-right: 1px solid #777;
+    display: flex;
+    flex: 0;
+    min-height: 100px;
+}
+
+.iconbox .icon {
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #777;
+    height: 80px;
+    margin-left: -45px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 80px;
+}
+
+.char .name {
+    border-bottom: 1px solid #777;
+    flex: 999;
+    overflow-x: clip;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.char .name h1 {
+    display: inline-flex;
+    flex-flow: row wrap;
+    font-size: clamp(16px, 2vw, 18px);
+    font-style: italic;
+    gap: 3px;
+    justify-content: right;
+    line-height: 110%;
+    margin: 0.7em;
+    text-transform: uppercase;
+}
+
+.char .overview {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.char .overview .tags {
+    margin: 1em 0 1em 1em;
+    max-height: 50px;
+    min-width: 50px;
+    overflow-wrap: anywhere;
+    overflow-y: scroll;
+    padding: 0 2px 0 0;
+    text-align: left;
+    word-break: break-all;
+}
+
+.char .overview .tags>span {
+    border: 1px solid #777;
+    display: inline-block;
+    font-size: clamp(8px, 1vw, 9px);
+    line-height: 100%;
+    margin: 2px 0;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+
+.char .overview .tags span>i {
+    padding: 0 5px 0 0;
+}
+
+.char .overview .tags>span:first-of-type {
+    background: var(--accent);
+    border: 1px solid var(--accent);
+    color: #fff;
+}
+
+.char .classes {
+    width: 100px;
+}
+
+.char .overview .snapshot {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.char .overview .classes {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 80%;
+    margin: 0 1.3em;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.char .overview .classes i {
+    border: 1px solid #777;
+    margin: 3px 0;
+    padding: 5px;
+    width: 10px;
+}
+
+.char .on {
+    color: rgb(255, 118, 141);
+}
+
+.qplot .collapse {
+    background: #fff;
+    border-top: 0px;
+    border: 1px solid #777;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.qplot .collapse ul {
+    list-style: none;
+    margin: 0px;
+    padding: 2em 40px;
+}
+
+.qplot .collapse ul li::before {
+    color: var(--accent);
+    content: "•";
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 0 0 -1em;
+    width: 1em;
+}
+
+.qplot .collapse ul li {
+    margin: 0 0 5px;
+}
