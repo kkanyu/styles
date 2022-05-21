@@ -117,7 +117,7 @@
 .qplaylist ol li {
     counter-increment: count;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     margin: 1rem 0;
 }
 
@@ -139,6 +139,7 @@
     align-self: center;
     font-size: 115%;
     margin: 0;
+    text-align: left;
 }
 
 .qplaylist ol li h1 span {
