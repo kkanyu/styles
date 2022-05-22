@@ -200,8 +200,8 @@
 
 .qplot .collapse {
     background: #fff;
-    border-top: 0px;
     border: 1px solid #777;
+    border-top: 0px;
     line-height: 120%;
     text-align: justify;
 }
