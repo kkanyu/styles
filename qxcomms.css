@@ -352,7 +352,7 @@
 
 .qxcomm .messages ul>.cash>.cashamt>.amount>.msg::after,
 .qxcomm .messages ul>.cash>.cashamt>.amount>.msg::before {
-    color: var(--accent);
+    color: inherit;
     content: '"';
     font-weight: 700;
 }
