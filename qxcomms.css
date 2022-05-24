@@ -312,3 +312,58 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.qxcomm .messages ul>.cash {
+    background-color: rgba(var(--accentRGB), 0.15);
+    border: 1px solid var(--accent);
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.55rem;
+}
+
+.qxcomm .messages ul>.cash>.cashamt {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.qxcomm .messages ul>.cash>.cashamt>.amount::before {
+    content: "You have sent";
+}
+
+.qxcomm .messages ul>.cash>.cashamt>.amount {
+    display: flex;
+    flex-flow: column nowrap;
+    font: 500 0.715rem/165% 'inter';
+    justify-content: start;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+.qxcomm .messages ul>.cash>.cashamt>.amount>span {
+    font: 700 1.25rem/100% 'inter';
+    margin: 5px 0;
+}
+
+.qxcomm .messages ul>.cash>.cashamt>.amount>.msg {
+    font-style: italic;
+}
+
+.qxcomm .messages ul>.cash>.cashamt>.amount>.msg::after,
+.qxcomm .messages ul>.cash>.cashamt>.amount>.msg::before {
+    color: var(--accent);
+    content: '"';
+    font-weight: 700;
+}
+
+.qxcomm .messages ul>.cash::after {
+    border-top: 1px solid var(--accent);
+    color: var(--accent);
+    content: "Sent via VENMOOSE";
+    display: inline-block;
+    font-size: 0.6rem;
+    margin: 5px 0 0;
+    padding: 5px 0 0;
+    text-align: right;
+}
