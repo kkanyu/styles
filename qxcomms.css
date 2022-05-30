@@ -307,6 +307,14 @@
     padding: 0 1em;
 }
 
+.qxcomm .messages ul>.audio .transcript p {
+    margin: 1em 0;
+}
+
+.qxcomm .messages ul>.audio .transcript p:first-of-type {
+    margin: 0;
+}
+
 .qxcomm .messages ul>.audio .transcript::before {
     content: "[transcript]";
     display: block;
