@@ -85,6 +85,10 @@
     list-style: none;
 }
 
+.qxcomm details summary::-webkit-details-marker {
+  display:none;
+}
+
 .qxcomm .header .recipient h1 {
     font-size: 130%;
     margin: 0.5em auto 0;
