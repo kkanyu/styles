@@ -81,12 +81,14 @@
     text-align: center;
 }
 
-.qxcomm .header .recipient * {
+.qxcomm .header .recipient *,
+.qxcomm summary {
     list-style: none;
 }
 
-.qxcomm details summary::-webkit-details-marker {
-  display:none;
+.qxcomm details summary::-webkit-details-marker,
+.qxcomm ::marker {
+  display: none;
 }
 
 .qxcomm .header .recipient h1 {
