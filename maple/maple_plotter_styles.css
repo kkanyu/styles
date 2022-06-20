@@ -239,3 +239,12 @@
     margin-left: -1em;
     width: 1em;
 }
+
+.mapleplotter .credit {
+    text-align: right;
+}
+
+.mapleplotter .credit a {
+    text-decoration: none;
+    font-size: 80%;
+}
