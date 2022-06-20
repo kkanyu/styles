@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,700;0,800;1,500;1,700&display=swap');
+.mapleplotter {
+    color: #777;
+    font: 400 0.775rem/150% 'Hind';
+    margin: 1rem auto;
+    max-width: 500px;
+}
+
+.mapleplotter .instructions {
+    background: #fff;
+    border-radius: 2rem;
+    border: 2px solid rgba(var(--accent_first), 0.45);
+    margin: 0 auto;
+    max-width: 325px;
+    padding: 20px 30px;
+}
+
+.mapleplotter>h1 {
+    color: rgb(var(--accent_first));
+    line-height: 120%;
+}
+
+.mapleplotter>h1.special {
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to bottom right, rgba(var(--accent_first), 1), rgba(var(--accent_second), 0.5));
+    background-size: 100%;
+    color: transparent;
+}
+
+@keyframes open {
+    0% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes close {
+    0% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.mapleplotter details {
+    margin: 2rem 0;
+}
+
+.mapleplotter details:first-of-type {
+    margin: 1rem 0;
+}
+
+.mapleplotter details[open] summary~* {
+    animation: open 0.5s ease;
+}
+
+.mapleplotter details summary {
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.mapleplotter ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.mapleplotter ::-webkit-scrollbar-thumb {
+    background: rgba(var(--accent_first), 0.5);
+}
+
+.mapleplotter b,
+.mapleplotter strong,
+.mapleplotter em,
+.mapleplotter i,
+.mapleplotter s,
+.mapleplotter u,
+.mapleplotter a {
+    color: rgba(var(--accent_first));
+}
+
+.mapleplotter details summary::-webkit-details-marker,
+.mapleplotter ::marker {
+    display: none;
+}
+
+.mapleplotter .char_overview {
+    display: block;
+    width: 100%;
+}
+
+.mapleplotter .char_overview .char_primary {
+    background: #fff;
+    border-radius: 2rem;
+    border: 2px solid rgba(var(--accent_first), 0.75);
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px 20px;
+}
+
+.mapleplotter .char_overview .char_primary .char_icon {
+    align-items: center;
+    display: flex;
+}
+
+.mapleplotter .char_overview .char_primary .char_icon>img {
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, rgba(var(--accent_first), 0.75), rgba(var(--accent_second), 0.75)) border-box;
+    border-radius: 100%;
+    border: 3px solid transparent;
+    height: 80px;
+    padding: 5px;
+    width: 80px;
+}
+
+.mapleplotter .char_overview .char_secondary {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.25rem 0;
+}
+
+.mapleplotter .char_overview .char_secondary .info_blocks {
+    background: linear-gradient(45deg, rgba(var(--accent_first), 0.25), rgba(var(--accent_second), 0.25)) border-box;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    height: 85px;
+    justify-content: center;
+    margin: 0.45rem 0 0.45rem 1rem;
+    overflow-y: scroll;
+    padding: 0.25rem 0.75rem;
+}
+
+.mapleplotter .char_overview .char_secondary .info_blocks>div {
+    align-content: center;
+    background: #fff;
+    border-radius: 0.35rem;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 0.65rem;
+    justify-content: center;
+    line-height: 125%;
+    margin: 0.25rem;
+    padding: 0.35rem 0.25rem;
+    text-align: center;
+    width: 75px;
+}
+
+.mapleplotter .char_overview .char_secondary .info_blocks>div tag {
+    color: rgba(var(--accent_first), 0.75);
+    font: 800 0.5rem 'montserrat';
+    text-transform: uppercase;
+}
+
+.mapleplotter .char_overview .char_secondary .info_blocks>div:nth-of-type(even) tag {
+    color: rgba(var(--accent_first), 0.85);
+}
+
+.mapleplotter .char_overview .char_secondary .info_blocks>div:nth-of-type(odd) tag {
+    color: rgba(var(--accent_second), 0.85);
+}
+
+.mapleplotter .char_overview .heart_status {
+    display: flex;
+    justify-content: end;
+}
+
+.mapleplotter .char_overview .heart_status>i {
+    align-self: center;
+    background: rgba(var(--accent_first), 0.75);
+    border-radius: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    justify-self: center;
+    margin: 0 0.15rem;
+    padding: 0.65rem;
+}
+
+.mapleplotter .char_overview .heart_status>i:hover {
+    background: rgba(var(--accent_second), 0.55);
+}
+
+.mapleplotter .char_overview .heart_status .on {
+    color: rgb(255, 107, 107);
+}
+
+.mapleplotter .char_name {
+    background: #fff;
+    border-radius: 2rem;
+    border: 2px solid rgba(var(--accent_first), 0.75);
+    display: flex;
+    font: 800 1rem 'montserrat';
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-top: -35px;
+    max-width: 310px;
+    padding: 5px 20px;
+    position: absolute;
+    z-index: 999;
+}
+
+.mapleplotter .char_name h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mapleplotter .expansion {
+    background: #fff;
+    border-radius: 2rem;
+    border: 2px solid rgba(var(--accent_second), 0.55);
+    margin-top: 7px;
+    padding: 15px 20px 10px;
+}
+
+.mapleplotter .expansion ul {
+    list-style: none;
+}
+
+.mapleplotter .expansion ul li::before {
+    color: rgb(var(--accent_first));
+    content: "+";
+    display: inline-block;
+    font-family: 'montserrat';
+    font-weight: 800;
+    margin-left: -1em;
+    width: 1em;
+}
