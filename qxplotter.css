@@ -8,7 +8,7 @@
 }
 
 .qplot .farmer {
-    --accent: rgb(79, 141, 111);
+    --accent: rgb(255, 111, 111);
 }
 
 @keyframes open {
