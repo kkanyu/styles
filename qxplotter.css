@@ -203,6 +203,10 @@
     color: rgb(255, 118, 141);
 }
 
+.char .on:hover, .char .on a:hover {
+    color: rgb(194, 17, 50);
+}
+
 .qplot .collapse {
     background: #fff;
     border: 1px solid #777;
