@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,700;0,800;1,500;1,700&display=swap');
+@keyframes open {
+    0% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.maple_tracker {
+    box-sizing: border-box!important;
+    max-width: 450px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #dedede;
+    font: 400 0.75rem/150% 'Hind';
+    color: #666;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    --accent: rgb(255, 131, 162);
+}
+
+.maple_tracker details {
+    margin: 2rem 0;
+}
+
+.maple_tracker details:first-of-type {
+    margin: 1rem 0;
+}
+
+.maple_tracker details[open] summary~* {
+    animation: open 0.5s ease;
+}
+
+.maple_tracker details summary {
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.maple_tracker ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.maple_tracker ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+.maple_tracker b,
+.maple_tracker strong,
+.maple_tracker i,
+.maple_tracker em,
+.maple_tracker a,
+.maple_tracker u {
+    color: var(--accent);
+}
+
+.maple_tracker .tracker_header {
+    display: flex;
+    margin-top: -2rem;
+}
+
+.maple_tracker .tracker_header .icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    margin-left: -2rem;
+    background: #fff;
+    border: 1px solid #dedede;
+    padding: 0.5rem;
+}
+
+.maple_tracker .tracker_header .stats * {
+    margin: 0;
+}
+
+.maple_tracker .tracker_header .stats {
+    padding: 0 1rem;
+    flex-grow: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.maple_tracker .tracker_header .stats h1 {
+    text-transform: uppercase;
+    color: var(--accent);
+    font: 700 1.2rem/150% 'montserrat';
+}
+
+.maple_tracker .tracker_header .stats h2 {
+    font: 600 0.65rem 'hind';
+    text-transform: uppercase;
+    border: 1px solid var(--accent);
+    align-self: flex-start;
+    letter-spacing: 1px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.maple_tracker .trackable {
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 1rem 0 0;
+    padding: 0 1rem;
+}
+
+.maple_tracker .trackable h2 {
+    text-transform: uppercase;
+    margin: 0 0 0.25rem;
+    font: 700 1rem/150% 'montserrat';
+    color: var(--accent);
+}
+
+.maple_tracker .trackable ul {
+    list-style: none;
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 0 1rem 1rem 0;
+    border: 1px solid #dedede;
+    border-radius: 1rem;
+}
+
+.maple_tracker .trackable ul li::before {
+    color: var(--accent);
+    content: "+";
+    display: inline-block;
+    font-family: 'montserrat';
+    font-weight: 800;
+    margin-left: -1em;
+    width: 1em;
+}
+
+.maple_tracker .trackable ul a {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.maple_tracker .trackable ul .m::after {
+    background-color: rgb(238, 85, 106);
+    border-radius: 2px;
+    color: #fff;
+    content: "nsfw";
+    font-size: 6px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 0 0 5px;
+    padding: 2px 4px 2px 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.maple_tracker .trackable ul .comm a:first-of-type::before {
+    border-radius: 2px;
+    color: var(--accent);
+    content: "comm";
+    font-size: 6px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 3px 0 0;
+    padding: 1px 4px 1px 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+    border: 1px solid var(--accent);
+}
+
+.maple_tracker .credit {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin: 1rem 0 -2rem 0rem;
+}
+
+.maple_tracker .credit a {
+    font-size: 8px;
+    text-decoration: none;
+    text-align: end;
+}
