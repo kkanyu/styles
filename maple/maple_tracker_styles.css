@@ -95,11 +95,10 @@
 }
 
 .maple_tracker .tracker_header .stats h2 {
-    font: 600 0.65rem 'hind';
+    font: 600 0.65rem/150% 'hind';
     text-transform: uppercase;
     border: 1px solid var(--accent);
     align-self: flex-start;
-    letter-spacing: 1px;
     padding: 0.2rem 0.5rem;
     border-radius: 0.5rem;
 }
