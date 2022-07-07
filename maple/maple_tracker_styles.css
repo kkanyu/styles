@@ -177,6 +177,12 @@
     border: 1px solid var(--accent);
 }
 
+.maple_tracker .trackable .archived_threads h2::after {
+    content: "(click to expand)";
+    font: 400 italic 0.65rem 'montserrat';
+    color: #999;
+}
+
 .maple_tracker .credit {
     display: flex;
     justify-content: end;
