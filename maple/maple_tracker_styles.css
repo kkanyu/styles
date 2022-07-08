@@ -108,8 +108,6 @@
 }
 
 .maple_tracker .trackable {
-    max-height: 300px;
-    overflow-y: scroll;
     margin: 1rem 0 0;
     padding: 0 1rem;
 }
