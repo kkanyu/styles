@@ -52,7 +52,8 @@
 .qplot b,
 .qplot strong,
 .qplot em,
-.qplot s {
+.qplot s,
+.qplot .collapse i {
     color: var(--accent);
 }
 
