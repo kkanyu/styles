@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .qxpost {
     background-color: #fff;
@@ -6,10 +6,10 @@
     color: #444;
     display: flex;
     flex-flow: column wrap;
-    font: 500 0.715rem/160% 'inter';
+    font: 400 0.715rem/160% 'be vietnam pro';
     margin: 0 auto;
     max-width: 375px;
-    min-width: 200px;
+    min-width: 325px;
     padding: 50px 65px;
     text-align: justify;
     width: 65%;
@@ -76,7 +76,6 @@
 
 .qxpost .qtag a {
     color: var(--accent);
-    font-family: 'inter';
     font-weight: bold;
     text-decoration: none;
 }
