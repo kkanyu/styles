@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
-
 .qxcomm {
     background: #fff;
     border: 1px solid #777;
     color: #333;
-    font: 500 0.72rem/150% inter, sans-serif;
+    font: 500 0.72rem/150% 'inter', sans-serif;
     margin: 1em auto;
     max-width: 375px;
     width: 100%;
@@ -88,7 +87,7 @@
 
 .qxcomm details summary::-webkit-details-marker,
 .qxcomm ::marker {
-  display: none;
+    display: none;
 }
 
 .qxcomm .header .recipient h1 {
@@ -131,9 +130,10 @@
 
 .qxcomm .header .recipient .members>a::before {
     color: #57c766;
-    content: "●";
+    content: "\f111";
+    font-family: 'FontAwesome'!important;
     display: inline-block;
-    font-size: 115%;
+    font-size: 0.5rem;
     margin-right: 0.35rem;
 }
 
@@ -262,6 +262,28 @@
     text-transform: uppercase;
 }
 
+.qxcomm .messages ul>.action {
+    background: rgba(var(--accentRGB), 0.05);
+    max-width: 70%;
+    font: 500 0.7rem/150% 'inter', sans-serif;
+    border: 1px solid rgba(var(--accentRGB), 0.25);
+    border-radius: 0.5rem;
+    text-align: center;
+    align-self: center;
+}
+
+.qxcomm .messages ul>.action::before {
+    content: "\f017";
+    font-family: 'FontAwesome'!important;
+    color: rgba(var(--accentRGB), 0.75);
+    background-color: #fff;
+    border-radius: 100%;
+    float: left;
+    font-size: 1rem;
+    position: relative;
+    margin: -1rem 0 0 -1.5rem;
+}
+
 .qxcomm .messages ul>.note {
     border: none;
     max-width: 90%;
@@ -269,7 +291,7 @@
 }
 
 .qxcomm .messages ul>.note::after {
-    content: "]";    
+    content: "]";
     margin: 0 0 0 0.25rem;
 }
 
@@ -278,7 +300,8 @@
     margin: 0 0.25rem 0 0;
 }
 
-.qxcomm .messages ul>.note::before, .qxcomm .messages ul>.note::after {
+.qxcomm .messages ul>.note::before,
+.qxcomm .messages ul>.note::after {
     color: var(--accent);
     font-weight: 700;
     font-style: italic;
