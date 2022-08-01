@@ -176,7 +176,7 @@
 
 .qxtrack .list ul {
     list-style: none;
-    max-height: 250px;
+    max-height: 251px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
