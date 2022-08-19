@@ -30,11 +30,11 @@
     font-weight: inherit;
 }
 
-.qxpost .qcontent strong,
-.qxpost .qcontent b,
-.qxpost .qcontent em,
-.qxpost .qcontent i,
-.qxpost .qcontent s {
+.qxpost strong,
+.qxpost b,
+.qxpost em,
+.qxpost i,
+.qxpost s {
     color: var(--accent);
     font-family: inherit;
     font-size: inherit;
@@ -82,4 +82,10 @@
 
 .qxpost .qtag a:hover {
     color: #ddd;
+}
+
+.qxpost>.cw {
+    text-align: right;
+    padding: 25px 0 0 1rem;
+    font-style: italic;
 }
