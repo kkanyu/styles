@@ -21,7 +21,7 @@
 
 .qxpost .qcontent p:first-child::first-line {
     color: var(--accent);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
