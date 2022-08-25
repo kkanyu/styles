@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.qxpost {
+    background-color: #fff;
+    border: 1px solid #444;
+    border-radius: 0.5rem;
+    color: #444;
+    display: flex;
+    flex-flow: column wrap;
+    font: normal 0.75rem/160% 'GT Walsheim';
+    margin: 0 auto;
+    max-width: 375px;
+    min-width: 325px;
+    padding: 3.25rem 3.5rem;
+    text-align: justify;
+    width: 65%;
+}
+
+.qxpost .qcontent {
+    padding: 0 0 1rem;
+}
+
+.qxpost .qcontent p:first-child::first-line {
+    color: var(--accent);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.qxpost .qcontent p:first-child::first-line em,
+.qxpost .qcontent p:first-child::first-line i {
+    font-weight: inherit;
+}
+
+.qxpost strong,
+.qxpost b,
+.qxpost em,
+.qxpost i,
+.qxpost s {
+    color: var(--accent);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.qxpost .qcontent strong,
+.qxpost .qcontent b {
+    font-weight: bold;
+}
+
+.qxpost .qcontent strong em,
+.qxpost .qcontent b i {
+    font-weight: inherit;
+}
+
+.qxpost .qcontent s {
+    letter-spacing: 0.05rem;
+}
+
+.qxpost .qcontent u {
+    color: inherit;
+}
+
+.qxpost .qtag {
+    align-self: center;
+    justify-content: center;
+    padding: 0 2rem;
+    text-transform: lowercase;
+}
+
+.qxpost .qtag a {
+    color: #444;
+    text-decoration: none;
+    margin: 0 0.5rem 0 0;
+    border-bottom: 2px solid var(--accent);
+    padding: 0 0.25rem 0.15rem;
+}
+
+.qxpost .qtag a::before {
+    color: var(--accent);
+    content: "#";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.25rem 0 0;
+}
+
+.qxpost .qtag a:hover {
+    color: var(--accent);
+    font-style: oblique;
+    filter: hue-rotate(45deg);
+}
+
+.qxpost>.cw {
+    text-align: right;
+    padding: 0 0 1rem 1rem;
+    font-style: oblique;
+}
