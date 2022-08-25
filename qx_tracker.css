@@ -303,7 +303,7 @@
     font-weight: normal;
 }
 
-.qxtracker .trackable ul .thread::before {
+.qxtracker .trackable ul li::before {
     content: "\f039";
 }
 
@@ -311,7 +311,7 @@
     content: "\f095";
 }
 
-.qxtracker .trackable ul .thread::before,
+.qxtracker .trackable ul li::before,
 .qxtracker .trackable ul .comm::before {
     font-family: 'FontAwesome'!important;
     font-size: 0.6rem;
