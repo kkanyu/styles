@@ -42,9 +42,9 @@
 
 .qxpost {
     background-color: #fff;
-    border: 1px solid #444;
+    border: 1px solid #777;
     border-radius: 0.5rem;
-    color: #444;
+    color: #111;
     display: flex;
     flex-flow: column wrap;
     font: normal 0.75rem/160% 'GT Walsheim';
