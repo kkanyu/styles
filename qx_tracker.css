@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@keyframes open {
+    0% {
+        margin-top: -20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.qxtracker ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.qxtracker ::-webkit-scrollbar-thumb {
+    background: rgb(var(--accentRGB));
+}
+
+.qxtracker ::-webkit-scrollbar-thumb:hover {
+    filter: saturate(50%);
+}
+
+.qxtracker details[open] summary~* {
+    animation: open 0.5s ease;
+}
+
+.qxtracker details summary {
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.qxtracker details summary {
+    list-style: none;
+}
+
+.qxtracker {
+    width: 50%;
+    max-width: 450px;
+    min-width: 300px;
+    box-sizing: border-box!important;
+    margin: 0 auto;
+    color: #111;
+    background: rgb(255, 255, 255);
+    font: normal 0.75rem/160% 'GT Walsheim';
+    border-radius: 0.25rem;
+    border: 1px solid #eee;
+    padding: 0.5rem 1rem;
+}
+
+.qxtracker b,
+.qxtracker a {
+    color: rgba(var(--accentRGB), 1);
+    text-decoration: none;
+}
+
+.qxtracker a:hover {
+    filter: brightness(110%);
+}
+
+.qxtracker a.love.on:hover {
+    filter: brightness(250%);
+}
+
+.qxtracker .trackable {
+    border: 2px dashed rgba(var(--accentRGB), 0.45);
+    border-width: 1px 0 0;
+    padding: 1rem 1.5rem 0;
+}
+
+.qxtracker .header * {
+    margin: 0;
+    font-weight: normal;
+}
+
+.qxtracker .header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.qxtracker .header .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25rem;
+    border: 1px solid rgba(var(--accentRGB), 0.65);
+    background-color: rgba(var(--accentRGB), 0.25);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qxtracker .header .icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 0.25rem solid rgba(255, 255, 255, 0.75);
+    opacity: 0.9;
+}
+
+.qxtracker .info {
+    flex-grow: 1;
+    min-width: 25%;
+    padding: 0 1rem;
+}
+
+.qxtracker .info h2,
+.qxtracker .info h2 b {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.qxtracker .info h3 {
+    text-decoration: none;
+    margin: 0 0.5rem 0 0;
+    border-bottom: 2px solid rgb(var(--accentRGB));
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0 0.25rem 0.15rem;
+}
+
+.qxtracker .info h3::before {
+    color: rgb(var(--accentRGB));
+    content: "#";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.25rem 0 0;
+}
+
+.qxtracker .links {
+    justify-self: end;
+    display: flex;
+    flex-flow: nowrap;
+    font-size: 0.8rem;
+    line-height: 0;
+    text-align: right;
+}
+
+.qxtracker .links a {
+    font-family: 'FontAwesome'!important;
+    text-decoration: none;
+    border: 1px solid rgba(var(--accentRGB), 1);
+    background: rgba(var(--accentRGB), 0.05);
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+    padding: 0.1rem;
+    margin: 0 0 0 0.15rem;
+}
+
+.qxtracker .links a.profile::before {
+    content: "\f02e";
+    align-self: center;
+}
+
+.qxtracker .links a.dev::before {
+    content: "\f02d";
+    align-self: center;
+}
+
+.qxtracker .links a.love::before {
+    content: "\f004";
+    align-self: center;
+}
+
+.qxtracker .links a.love.on {
+    color: rgb(255, 83, 112);
+    border-color: rgb(255, 83, 112);
+    background: rgba(255, 83, 112, 0.05);
+}
+
+.qxtracker .trackable h2 {
+    text-decoration: none;
+    margin: 0 0.5rem 0 0;
+    border-bottom: 2px solid rgb(var(--accentRGB));
+    display: inline-block;
+    padding: 0 0.25rem 0.15rem;
+}
+
+.qxtracker .trackable h2::before {
+    color: rgb(var(--accentRGB));
+    content: "#";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.25rem 0 0;
+}
+
+.qxtracker .trackable summary h2::after {
+    content: "(click to expand)";
+    font-weight: normal;
+    font-style: italic;
+    float: right;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin: 0 0 0 0.5rem;
+}
+
+.qxtracker .trackable ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    line-height: 145%;
+    max-height: 210px;
+    overflow-y: scroll;
+}
+
+.qxtracker .trackable .active {
+    border: 2px dashed rgba(var(--accentRGB), 0.45);
+    border-width: 0 0 1px;
+    margin: 0 0 1rem;
+}
+
+.qxtracker .trackable .archived {
+    margin: 0 0 1rem;
+}
+
+.qxtracker .trackable ul li {
+    padding: 0.25rem 0;
+}
+
+.qxtracker .trackable a {
+    font-weight: bold;
+}
+
+.qxtracker .trackable ul a:first-of-type {
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 0 1.25rem;
+}
+
+.qxtracker .trackable ul li.m a:first-of-type::after {
+    content: "nsfw";
+    margin: 0 0.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.45rem;
+    background-color: rgb(224, 52, 81);
+    color: #fff;
+    padding: 0.15rem 0.3rem;
+    letter-spacing: 0.05rem;
+    border-radius: 0.15rem;
+    vertical-align: top;
+}
+
+.qxtracker .trackable ul a:nth-of-type(2)::before {
+    content: "with ";
+    color: #111;
+    font-weight: normal;
+}
+
+.qxtracker .trackable ul li b::before {
+    content: "in ";
+    color: #111;
+    font-weight: normal;
+}
+
+.qxtracker .trackable ul .thread::before {
+    content: "\f039";
+}
+
+.qxtracker .trackable ul .comm::before {
+    content: "\f095";
+}
+
+.qxtracker .trackable ul .thread::before,
+.qxtracker .trackable ul .comm::before {
+    font-family: 'FontAwesome'!important;
+    font-size: 0.6rem;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    border: 1px solid rgba(var(--accentRGB), 1);
+    background: rgba(var(--accentRGB), 0.15);
+    color: rgb(var(--accentRGB));
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 1rem;
+    padding: 0.1rem;
+    margin: 0 1rem 0 0;
+}
