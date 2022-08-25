@@ -303,7 +303,7 @@
     font-weight: normal;
 }
 
-.qxtracker .trackable ul li::before {
+.qxtracker .trackable ul > li::before {
     content: "\f039";
 }
 
