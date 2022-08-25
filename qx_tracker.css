@@ -90,6 +90,7 @@
     border-radius: 0.25rem;
     border: 1px solid #aaa;
     padding: 0.5rem 1rem;
+    text-align: left;
 }
 
 .qxtracker b,
@@ -148,7 +149,6 @@
     flex-grow: 1;
     min-width: 25%;
     padding: 0 1rem;
-    text-align: left;
 }
 
 .qxtracker .info h2,
