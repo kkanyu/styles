@@ -41,19 +41,20 @@
 }
 
 .qxpost {
+    box-sizing: border-box!important;
     background-color: #fff;
     border: 1px solid #777;
-    border-radius: 0.5rem;
+    border-radius: 0.35rem;
     color: #111;
     display: flex;
     flex-flow: column wrap;
     font: normal 0.75rem/160% 'GT Walsheim';
     margin: 0 auto;
-    max-width: 375px;
-    min-width: 325px;
+    max-width: 485px;
+    min-width: 355px;
     padding: 3.25rem 3.5rem;
     text-align: justify;
-    width: 65%;
+    width: 85%;
 }
 
 .qxpost .qcontent {
