@@ -1,27 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
 
 .qxpost {
     background-color: #fff;
-    border: 1px solid #333;
+    border: 1px solid #444;
+    border-radius: 0.5rem;
     color: #444;
     display: flex;
     flex-flow: column wrap;
-    font: 400 0.718rem/160% 'be vietnam pro';
+    font: normal 0.75rem/160% 'GT Walsheim';
     margin: 0 auto;
     max-width: 375px;
     min-width: 325px;
-    padding: 50px 65px;
+    padding: 3.25rem 3.5rem;
     text-align: justify;
     width: 65%;
 }
 
 .qxpost .qcontent {
-    padding: 10px 0 20px;
+    padding: 0 0 1rem;
 }
 
 .qxpost .qcontent p:first-child::first-line {
     color: var(--accent);
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -42,7 +83,7 @@
 
 .qxpost .qcontent strong,
 .qxpost .qcontent b {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .qxpost .qcontent strong em,
@@ -51,7 +92,7 @@
 }
 
 .qxpost .qcontent s {
-    letter-spacing: 0.75px;
+    letter-spacing: 0.05rem;
 }
 
 .qxpost .qcontent u {
@@ -60,32 +101,35 @@
 
 .qxpost .qtag {
     align-self: center;
-    border-top: 1px solid #333;
-    font-size: 0.75rem;
     justify-content: center;
-    max-width: 70%;
-    padding: 25px 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.qxpost .qtag a::before {
-    color: #666;
-    content: "#";
+    padding: 0 2rem;
+    text-transform: lowercase;
 }
 
 .qxpost .qtag a {
-    color: var(--accent);
-    font-weight: 800;
+    color: #444;
     text-decoration: none;
+    margin: 0 0.5rem 0 0;
+    border-bottom: 2px solid var(--accent);
+    padding: 0 0.25rem 0.15rem;
+}
+
+.qxpost .qtag a::before {
+    color: var(--accent);
+    content: "#";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.25rem 0 0;
 }
 
 .qxpost .qtag a:hover {
-    color: #ddd;
+    color: var(--accent);
+    font-style: oblique;
+    filter: hue-rotate(45deg);
 }
 
 .qxpost>.cw {
     text-align: right;
-    padding: 25px 0 0 1rem;
-    font-style: italic;
+    padding: 0 0 1rem 1rem;
+    font-style: oblique;
 }
