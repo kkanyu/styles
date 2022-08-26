@@ -11,6 +11,48 @@
     --accent: rgb(255, 111, 111);
 }
 
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
 @keyframes open {
     0% {
         margin-top: -20px;
@@ -35,15 +77,15 @@
 
 .qplot details summary::-webkit-details-marker,
 .qplot ::marker {
-  display: none;
+    display: none;
 }
 
 .qplot {
     box-sizing: border-box;
-    color: #333;
-    font-family: inter;
+    color: #111;
+    font-family: 'GT Walsheim';
     font-size: 0.75rem;
-    line-height: 110%;
+    line-height: 140%;
     margin: 2em auto 5em;
     max-width: 400px;
     width: 80%;
@@ -67,11 +109,12 @@
 }
 
 .qplot h2 {
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     font-size: 0.75rem;
     font-weight: normal;
     line-height: 120%;
     padding: 1.5em 2em;
+    border-radius: 0.25rem;
 }
 
 .qchar ::-webkit-scrollbar {
@@ -92,14 +135,15 @@
 
 .char {
     background: #fff;
-    border: 1px solid #999;
+    border: 1px solid #aaa;
     display: flex;
     flex-flow: row nowrap;
+    border-radius: 0.25rem;
 }
 
 .iconbox {
     align-items: center;
-    border-right: 1px solid #777;
+    border-right: 1px solid #aaa;
     display: flex;
     flex: 0;
     min-height: 100px;
@@ -108,7 +152,7 @@
 .iconbox .icon {
     background: #fff;
     border-radius: 100%;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     height: 80px;
     margin-left: -45px;
     margin-right: 10px;
@@ -117,7 +161,7 @@
 }
 
 .char .name {
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #aaa;
     flex: 999;
     overflow-x: clip;
     text-align: right;
@@ -134,7 +178,7 @@
     justify-content: right;
     line-height: 110%;
     margin: 0.7em;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .char .overview {
@@ -154,13 +198,15 @@
 }
 
 .char .overview .tags>span {
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     display: inline-block;
-    font-size: clamp(8px, 1vw, 9px);
+    font-size: 0.53rem;
+    font-family: 'inter';
     line-height: 100%;
     margin: 2px 0;
     padding: 2px 5px;
     text-transform: uppercase;
+    border-radius: 0.25rem;
 }
 
 .char .overview .tags span>i {
@@ -194,26 +240,30 @@
 }
 
 .char .overview .classes i {
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     margin: 3px 0;
     padding: 5px;
     width: 10px;
+    border-radius: 0.25rem;
 }
 
-.char .on, .char .on a {
+.char .on,
+.char .on a {
     color: rgb(255, 118, 141);
 }
 
-.char .on:hover, .char .on a:hover {
+.char .on:hover,
+.char .on a:hover {
     color: rgb(194, 17, 50);
 }
 
 .qplot .collapse {
     background: #fff;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     border-top: 0px;
     line-height: 120%;
     text-align: justify;
+    border-radius: 0.25rem;
 }
 
 .qplot .collapse ul {
@@ -224,7 +274,7 @@
 
 .qplot .collapse ul li::before {
     color: var(--accent);
-    content: "•";
+    content: "\2022";
     display: inline-block;
     font-weight: bold;
     margin: 0 0 0 -1em;
