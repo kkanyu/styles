@@ -223,7 +223,7 @@
     background: rgba(255, 83, 112, 0.05);
 }
 
-.qxtracker .links a.dev[href$="/"] {
+.qxtracker .links a.dev[href="/"] {
     display: none;
 
 .qxtracker .trackable h2 {
