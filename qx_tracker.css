@@ -283,6 +283,10 @@
     flex-flow: row nowrap;
 }
 
+.qxtracker .trackable ul li:hover {
+    filter: brightness(115%);
+}
+
 .qxtracker .trackable a {
     font-weight: bold;
 }
