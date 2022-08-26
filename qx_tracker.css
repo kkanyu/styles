@@ -224,7 +224,8 @@
 }
 
 .qxtracker .links a.dev[href="/"] {
-    display: none;
+    display: none; 
+}
 
 .qxtracker .trackable h2 {
     text-decoration: none;
