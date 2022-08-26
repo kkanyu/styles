@@ -100,7 +100,7 @@
 }
 
 .qxtracker a:hover {
-    filter: brightness(110%);
+    filter: brightness(115%);
 }
 
 .qxtracker a.love.on:hover {
@@ -271,16 +271,17 @@
 
 .qxtracker .trackable ul li {
     padding: 0.25rem 0.5rem 0 0;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .qxtracker .trackable a {
     font-weight: bold;
 }
 
-.qxtracker .trackable ul a:first-of-type {
+.qxtracker .trackable ul li>span a:first-of-type {
     display: block;
     font-size: 1rem;
-    margin: 0 0 0 1.25rem;
 }
 
 .qxtracker .trackable ul li.m a:first-of-type::after {
@@ -297,19 +298,25 @@
     vertical-align: top;
 }
 
-.qxtracker .trackable ul a:nth-of-type(2)::before {
+.qxtracker .trackable ul li span>span a:first-of-type {
+    display: inline;
+    font-size: 0.75rem;
+}
+
+.qxtracker .trackable ul li span a:nth-of-type(2):before {
     content: "with ";
     color: #111;
     font-weight: normal;
+    display: inline;
 }
 
-.qxtracker .trackable ul li b::before {
+.qxtracker .trackable ul li span b::before {
     content: "in ";
     color: #111;
     font-weight: normal;
 }
 
-.qxtracker .trackable ul > li::before {
+.qxtracker .trackable ul>li::before {
     content: "\f039";
 }
 
@@ -322,8 +329,6 @@
     font-family: 'FontAwesome'!important;
     font-size: 0.6rem;
     text-decoration: none;
-    float: left;
-    position: relative;
     border: 1px solid rgba(var(--accentRGB), 1);
     background: rgba(var(--accentRGB), 0.15);
     color: rgb(var(--accentRGB));
@@ -335,6 +340,7 @@
     border-radius: 1rem;
     padding: 0.1rem;
     margin: 0 1rem 0 0;
+    flex-shrink: 0;
 }
 
 .qxtracker .trackable ul .null::before {
