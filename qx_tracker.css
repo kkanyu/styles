@@ -202,16 +202,19 @@
 .qxtracker .links a.profile::before {
     content: "\f02e";
     align-self: center;
+    margin: 1px 0 0;
 }
 
 .qxtracker .links a.dev::before {
     content: "\f02d";
     align-self: center;
+    margin: 1px 0 0;
 }
 
 .qxtracker .links a.love::before {
     content: "\f004";
     align-self: center;
+    margin: 1px 0 0;
 }
 
 .qxtracker .links a.love.on {
