@@ -43,7 +43,7 @@
 .qxpost {
     box-sizing: border-box!important;
     background-color: #fff;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     border-radius: 0.35rem;
     color: #111;
     display: flex;
