@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
 .qxcomm {
     background: #fff;
-    border: 1px solid #777;
-    color: #333;
-    font: 500 0.72rem/150% 'inter', sans-serif;
+    border: 1px solid #aaa;
+    color: #111;
+    font: 500 0.72rem/150% 'Inter', sans-serif;
     margin: 1em auto;
     max-width: 375px;
     width: 100%;
+    border-radius: 0.25rem;
 }
 
 .qxcomm b,
@@ -27,7 +28,7 @@
 }
 
 .qxcomm .header {
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #aaa;
     display: flex;
     justify-items: center;
     padding: 1em;
@@ -151,7 +152,7 @@
 }
 
 .qxcomm .sending {
-    border-top: 1px solid #777;
+    border-top: 1px solid #aaa;
     color: #aaa;
     display: flex;
     justify-content: space-between;
@@ -161,7 +162,7 @@
 .qxcomm .sending .chatbox {
     align-content: center;
     border-radius: 0.5rem;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     display: flex;
     justify-content: space-between;
     margin-right: 1em;
@@ -183,7 +184,7 @@
 }
 
 .qxcomm .sending .chatbox i {
-    color: #777;
+    color: #aaa;
     font-size: 110%;
 }
 
@@ -214,7 +215,7 @@
 
 .qxcomm .messages ul>li {
     border-radius: 0.5rem 0.5rem 0.5rem 0;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
     display: inline-block;
     margin: 0.5em 0;
     max-width: 75%;
@@ -333,7 +334,7 @@
 
 .qxcomm .messages ul>.audio .transcript {
     border-left: 2px solid #eee;
-    color: #777;
+    color: #aaa;
     padding: 0 1em;
 }
 
