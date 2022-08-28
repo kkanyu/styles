@@ -178,7 +178,7 @@
     justify-content: right;
     line-height: 110%;
     margin: 0.7em;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 .char .overview {
@@ -198,15 +198,14 @@
 }
 
 .char .overview .tags>span {
-    border: 1px solid #aaa;
+    border: 1px solid #777;
     display: inline-block;
-    font-size: 0.53rem;
+    font-size: 6.35pt;
     font-family: 'inter';
-    line-height: 100%;
+    line-height: 120%;
     margin: 2px 0;
     padding: 2px 5px;
     text-transform: uppercase;
-    border-radius: 0.25rem;
 }
 
 .char .overview .tags span>i {
@@ -240,11 +239,10 @@
 }
 
 .char .overview .classes i {
-    border: 1px solid #aaa;
+    border: 1px solid #777;
     margin: 3px 0;
     padding: 5px;
     width: 10px;
-    border-radius: 0.25rem;
 }
 
 .char .on,
