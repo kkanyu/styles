@@ -173,10 +173,9 @@
     display: inline-flex;
     flex-flow: row wrap;
     font-size: clamp(16px, 2vw, 18px);
-    font-style: italic;
+    font-style: oblique;
     gap: 3px;
     justify-content: right;
-    line-height: 110%;
     margin: 0.7em;
     text-transform: uppercase;
 }
@@ -259,7 +258,7 @@
     background: #fff;
     border: 1px solid #aaa;
     border-top: 0px;
-    line-height: 120%;
+    line-height: 135%;
     text-align: justify;
     border-radius: 0.25rem;
 }
