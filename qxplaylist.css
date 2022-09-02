@@ -176,6 +176,7 @@
     margin: 0 1rem 0 0;
     padding: 20px;
     width: 1rem;
+    border-radius: 0.25rem;
 }
 
 .qplaylist ol li h1 {
