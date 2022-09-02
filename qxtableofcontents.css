@@ -109,9 +109,10 @@
 }
 
 .qdevtocnest {
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     padding: 20px 0;
     margin: 20px 0;
+    border-radius: 0.25rem;
 }
 
 .qdevtoc ::-webkit-scrollbar {
