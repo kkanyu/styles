@@ -1,13 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
 .qdevtoc {
-    color: #333;
-    font-family: 'inter';
-    font-size: 0.715rem;
+    color: #111;
+    font-family: 'GT Walsheim';
+    font-size: 0.77rem;
     line-height: 165%;
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 450px;
     text-align: justify;
-    width: 75%;
+    width: 85%;
 }
 
 .qdevtoc b,
@@ -19,7 +62,7 @@
 }
 
 .qdevtoc a {
-    color: #333;
+    color: #111;
     text-decoration: none;
     font-weight: bold;
 }
@@ -91,7 +134,7 @@
 }
 
 .qdevtoc .header {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #aaa;
     padding: 0 10px 10px;
     text-align: center;
 }
