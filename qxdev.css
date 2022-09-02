@@ -93,6 +93,7 @@
     display: flex;
     flex-flow: row nowrap;
     max-height: 100px;
+    border-radius: 0.25rem;
 }
 
 .qdevelopment .notes .type {
@@ -215,5 +216,5 @@
     background: #aaa;
     height: 1px;
     margin: 40px auto;
-    width: 45%;
+    width: 30%;
 }
