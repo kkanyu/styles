@@ -1,14 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
-.qdevelopment {
-    color: #333;
-    font-family: 'inter';
-    font-size: 0.715rem;
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
     font-weight: 500;
-    line-height: 165%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.qdevelopment {
+    color: #111;
+    font-family: 'GT Walsheim';
+    font-size: 0.77rem;
+    font-weight: 500;
+    line-height: 160%;
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 450px;
     text-align: justify;
-    width: 75%;
+    width: 85%;
 }
 
 .qdevelopment b,
@@ -20,9 +63,10 @@
 }
 
 .qdevelopmentnest {
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     margin: 20px 0;
     padding: 20px 0;
+    border-radius: 0.25rem;
 }
 
 .qdevelopment ::-webkit-scrollbar {
@@ -45,7 +89,7 @@
 }
 
 .qdevelopment .notes {
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     display: flex;
     flex-flow: row nowrap;
     max-height: 100px;
@@ -53,7 +97,7 @@
 
 .qdevelopment .notes .type {
     align-items: center;
-    border-right: 1px solid #333;
+    border-right: 1px solid #aaa;
     display: flex;
     font-size: 110%;
     font-weight: bold;
@@ -86,7 +130,7 @@
 }
 
 .qdevelopment .header {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #aaa;
     padding: 0 10px 10px;
     text-align: center;
 }
