@@ -1,13 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Inconsolata&display=swap');
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
 .qplaylist {
     color: #333;
-    font-family: 'inter';
-    font-size: 0.715rem;
+    font-family: 'GT Walsheim';
+    font-size: 0.77rem;
     line-height: 165%;
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 450px;
     text-align: justify;
-    width: 75%;
+    width: 85%;
 }
 
 .qplaylist b,
@@ -19,8 +61,9 @@
 }
 
 .qplaylistnest {
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     margin: 20px 0;
+    border-radius: 0.25rem;
 }
 
 .qplaylist ::-webkit-scrollbar {
@@ -43,7 +86,7 @@
 }
 
 .qplaylist .header {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #aaa;
     display: flex;
     gap: 0 10px;
     justify-content: space-between;
@@ -65,7 +108,7 @@
 
 .qplaylist .header h2 {
     align-items: center;
-    border-left: 1px solid #333;
+    border-left: 1px solid #aaa;
     display: flex;
     font-weight: 500;
     justify-content: center;
@@ -81,7 +124,7 @@
 }
 
 .qplaylist .footer {
-    border-top: 1px solid #333;
+    border-top: 1px solid #aaa;
     font-size: 90%;
     letter-spacing: 0.5px;
     text-align: center;
@@ -123,7 +166,7 @@
 
 .qplaylist ol li::before {
     align-content: center;
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     content: counter(count, decimal-leading-zero);
     display: flex;
     font-size: 1rem;
@@ -155,7 +198,7 @@
 .qplaylist .e::before {
     background-color: #fff;
     border-radius: 2px;
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     color: #333;
     content: "e";
     font-family: inconsolata;
