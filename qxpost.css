@@ -135,3 +135,9 @@
     padding: 0 0 1rem 1rem;
     font-style: oblique;
 }
+
+/* TEMP: SKIN DEFAULT TEMPLATE MOD */
+.post-tem1 div:first-of-type, .post-tem2 > div:first-of-type {
+    font-size: 0.7rem;
+    color: #888;
+}
