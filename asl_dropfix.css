@@ -1,0 +1,8 @@
+.char_list details summary {
+  list-style: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.char_list details[open] summary~* {
+  animation: open 0.5s ease;
+}
