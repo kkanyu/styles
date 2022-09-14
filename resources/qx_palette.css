@@ -1,0 +1,354 @@
+.qx_alatus {
+    --accent: #1BA491;
+    --accentRGB: 27, 164, 145;
+}
+
+.qx_sena {
+    --accent: #9AD4EA;
+    --accentRGB: 154, 212, 234;
+}
+
+.qx_dray {
+    --accent: #6B8994;
+    --accentRGB: 107, 137, 148;
+}
+
+.qx_seri {
+    --accent: #5a1f51;
+    --accentRGB: 90, 31, 81;
+}
+
+.qx_silvan {
+    --accent: #DDB6AB;
+    --accentRGB: 221, 182, 171;
+}
+
+.qx_elysia {
+    --accent: #F8A39D;
+    --accentRGB: 248, 163, 157;
+}
+
+.qx_kaz {
+    --accent: #007CB8;
+    --accentRGB: 0, 124, 184;
+}
+
+.qx_andras {
+    --accent: #f7c46c;
+    --accentRGB: 247, 196, 108;
+}
+
+.qx_cyl {
+    --accent: #833a5b;
+    --accentRGB: 131, 58, 91;
+}
+
+.qx_eden {
+    --accent: #F0BDD5;
+    --accentRGB: 240, 189, 213;
+}
+
+.qx_rochelle {
+    --accent: #CE785D;
+    --accentRGB: 206, 120, 93;
+}
+
+.qx_garnet {
+    --accent: #AC4B55;
+    --accentRGB: 172, 75, 85;
+}
+
+.qx_adrien {
+    --accent: #009499;
+    --accentRGB: 0, 148, 153;
+}
+
+.qx_ellaria {
+    --accent: #8896C6;
+    --accentRGB: 136, 150, 198;
+}
+
+.qx_kieran {
+    --accent: #C1DB3C;
+    --accentRGB: 193, 219, 60;
+}
+
+.qx_rhys {
+    --accent: #8ec5b6;
+    --accentRGB: 142, 197, 182;
+}
+
+.qx_misaki {
+    --accent: #F5BEC7;
+    --accentRGB: 245, 190, 199;
+}
+
+.qx_shui {
+    --accent: #006175;
+    --accentRGB: 0, 97, 117;
+}
+
+.qx_haise {
+    --accent: #96637B;
+    --accentRGB: 150, 99, 123;
+}
+
+.qx_nathaniel {
+    --accent: #BBC1CC;
+    --accentRGB: 187, 193, 204;
+}
+
+.qx_autumnrose {
+    --accent: #EA6B6A;
+    --accentRGB: 234, 107, 106;
+}
+
+.qx_lulu {
+    --accent: #4E5368;
+    --accentRGB: 78, 83, 104;
+}
+
+.qx_baron {
+    --accent: #f0e87d;
+    --accentRGB: 240, 232, 125;
+}
+
+.qx_ez {
+    --accent: #9EC1CC;
+    --accentRGB: 158, 193, 204;
+}
+
+.qx_hikaru {
+    --accent: #516886;
+    --accentRGB: 81, 104, 134;
+}
+
+.qx_drazen {
+    --accent: #e2583e;
+    --accentRGB: 226, 88, 62;
+}
+
+.qx_gil {
+    --accent: #00819d;
+    --accentRGB: 0, 129, 157;
+}
+
+.qx_cal {
+    --accent: #9787b8;
+    --accentRGB: 151, 135, 184;
+}
+
+.qx_meru {
+    --accent: #e2a9a1;
+    --accentRGB: 226, 169, 161;
+}
+
+.qx_izzi {
+    --accent: #999b85;
+    --accentRGB: 153, 155, 133;
+}
+
+.qx_toast {
+    --accent: #897f98;
+    --accentRGB: 137, 127, 152;
+}
+
+.qx_zin {
+    --accent: #ffa00d;
+    --accentRGB: 255, 160, 13;
+}
+
+.qx_quentin {
+    --accent: #2e6464;
+    --accentRGB: 46, 100, 100;
+}
+
+.qx_yoru {
+    --accent: #6fa26b;
+    --accentRGB: 111, 162, 107;
+}
+
+.qx_ryuu {
+    --accent: #c59f7b;
+    --accentRGB: 197, 159, 123;
+}
+
+.qx_luca {
+    --accent: #ad433d;
+    --accentRGB: 173, 67, 61;
+}
+
+.qx_artem {
+    --accent: #72aad8;
+    --accentRGB: 114, 170, 216;
+}
+
+.qx_river {
+    --accent: #38aecd;
+    --accentRGB: 56, 174, 205;
+}
+
+.qx_vane {
+    --accent: #2b4f9c;
+    --accentRGB: 43, 79, 156;
+}
+
+.qx_avery {
+    --accent: #302453;
+    --accentRGB: 48, 36, 83;
+}
+
+.qx_carter {
+    --accent: #748c69;
+    --accentRGB: 116, 140, 105;
+}
+
+.qx_xian {
+    --accent: #58c9d4;
+    --accentRGB: 88, 201, 212;
+}
+
+.qx_mila {
+    --accent: #e4455e;
+    --accentRGB: 228, 69, 94;
+}
+
+.qx_cerise {
+    --accent: #a41247;
+    --accentRGB: 164, 18, 71;
+}
+
+.qx_aspen {
+    --accent: #b9bd2b;
+    --accentRGB: 185, 189, 43;
+}
+
+.qx_ruele {
+    --accent: #d6cbba;
+    --accentRGB: 214, 203, 186;
+}
+
+.qx_ash {
+    --accent: #c2acb1;
+    --accentRGB: 194, 172, 177;
+}
+
+.qx_hyunwoo {
+    --accent: #a5b8d0;
+    --accentRGB: 165, 184, 208;
+}
+
+.qx_lyle {
+    --accent: #ff8c55;
+    --accentRGB: 255, 140, 85;
+}
+
+.qx_kisami {
+    --accent: #b98391;
+    --accentRGB: 185, 131, 145;
+}
+
+.qx_mui {
+    --accent: #b9bcb6;
+    --accentRGB: 185, 188, 182;
+}
+
+.qx_colton {
+    --accent: #6b9ba3;
+    --accentRGB: 107, 155, 163;
+}
+
+.qx_jayden {
+    --accent: #6796cd;
+    --accentRGB: 103, 150, 205;
+}
+
+.qx_liana {
+    --accent: #6a4069;
+    --accentRGB: 106, 64, 105;
+}
+
+.qx_kara {
+    --accent: #c7528c;
+    --accentRGB: 199, 82, 140;
+}
+
+.qx_fumi {
+    --accent: #96dfce;
+    --accentRGB: 150, 223, 206;
+}
+
+.qx_yuuta {
+    --accent: #d93744;
+    --accentRGB: 217, 55, 68;
+}
+
+.qx_winter {
+    --accent: #a9c0cb;
+    --accentRGB: 169, 192, 203;
+}
+
+.qx_aizen {
+    --accent: #593761;
+    --accentRGB: 89, 55, 97;
+}
+
+.qx_esther {
+    --accent: #ff9f67;
+    --accentRGB: 255, 159, 103;
+}
+
+.qx_dante {
+    --accent: #555c83;
+    --accentRGB: 85, 92, 131;
+}
+
+.qx_axel {
+    --accent: #b60017;
+    --accentRGB: 182, 0, 23;
+}
+
+.qx_sigfried {
+    --accent: #00629c;
+    --accentRGB: 0, 98, 156;
+}
+
+.qx_raven {
+    --accent: #f26b5b;
+    --accentRGB: 242, 107, 91;
+}
+
+.qx_orion {
+    --accent: #782a39;
+    --accentRGB: 120, 42, 57;
+}
+
+.qx_ellin {
+    --accent: #be394f;
+    --accentRGB: 190, 57, 79;
+}
+
+.qx_nikola {
+    --accent: #6f54a1;
+    --accentRGB: 111, 84, 161;
+}
+
+.qx_ilona {
+    --accent: #a2a9d1;
+    --accentRGB: 162, 169, 209;
+}
+
+.qx_leon {
+    --accent: #be3360;
+    --accentRGB: 190, 51, 96;
+}
+
+.qx_selene {
+    --accent: #73606a;
+    --accentRGB: 115, 96, 106;
+}
+
+.qx_seoyun {
+    --accent: #fc97a5;
+    --accentRGB: 252, 151, 165;
+}
