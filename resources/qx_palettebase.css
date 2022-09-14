@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+.palette_container {
+    background-color: #fff;
+    border: 1px solid #efefef;
+    color: #777;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.73rem;
+    padding: 2em;
+}
+
+.palette_container>h1 {
+    text-align: center;
+}
+
+.qx_swatches {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.qx_swatches>.card {
+    padding: 10px;
+    width: 130px;
+}
+
+.qx_swatches>.card>.colour {
+    background: var(--accent);
+    height: 130px;
+    margin: 0 0 5px 0;
+    width: 130px;
+}
+
+.qx_swatches>.card>.info h1,
+.qx_swatches>.card>.info h2,
+.qx_swatches>.card>.info h3 {
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin: 0;
+    max-width: 130px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.qx_swatches>.card>.info h1 {
+    font-size: 110%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.qx_swatches>.card>.info h2,
+.qx_swatches>.card>.info h3 {
+    font-size: 90%;
+    font-weight: 300;
+}
+
+.qx_swatches>.card>.info h1:after {
+    content: "\00AE";
+    vertical-align: top;
+}
+
+.qx_swatches>.card>.info h2 {
+    font-weight: bold;
+}
+
+.qx_swatches>.card>.info h3 {
+    text-transform: capitalize;
+}
+
+.qx_swatches>.card>.info h3:last-of-type {
+    text-transform: uppercase;
+}
