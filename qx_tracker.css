@@ -310,6 +310,20 @@
     vertical-align: top;
 }
 
+.qxtracker .trackable ul li.open a:first-of-type::before {
+    content: "open";
+    margin: 0 0.25rem 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.45rem;
+    border: 1px solid rgb(157 202 77);
+    color: rgb(157 202 77);
+    padding: 0.15rem 0.3rem;
+    letter-spacing: 0.05rem;
+    border-radius: 0.15rem;
+    vertical-align: top;
+}
+
 .qxtracker .trackable ul li span>span a:first-of-type {
     display: inline;
     font-size: 0.75rem;
