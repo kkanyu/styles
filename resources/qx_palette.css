@@ -233,7 +233,8 @@
     --accentRGB: 194, 172, 177;
 }
 
-.qx_hyunwoo {
+.qx_hyunwoo,
+.qx_lucian {
     --accent: #a5b8d0;
     --accentRGB: 165, 184, 208;
 }
