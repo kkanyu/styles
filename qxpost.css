@@ -57,6 +57,11 @@
     width: 85%;
 }
 
+.darkmode .qxpost {
+    background-color: none;
+    color: var(--text);
+}
+
 .qxpost .qcontent {
     padding: 0 0 1rem;
 }
@@ -80,6 +85,10 @@
     color: var(--accent);
     font-family: inherit;
     font-size: inherit;
+    background: none;
+    opacity: 1;
+    -webkit-background-clip: revert!important;
+    -webkit-text-fill-color: revert;
 }
 
 .qxpost .qcontent strong,
