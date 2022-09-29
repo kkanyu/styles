@@ -58,8 +58,12 @@
 }
 
 .darkmode .qxpost, .darkmode .qxpost .qtag a {
-    background-color: none;
+    background: var(--postBack);
     color: var(--text);
+}
+
+.darkmode .qxpost {
+    border: 1px solid var(--dark30);
 }
 
 .qxpost .qcontent {
