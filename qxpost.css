@@ -57,7 +57,7 @@
     width: 85%;
 }
 
-.darkmode .qxpost {
+.darkmode .qxpost, .darkmode .qxpost .qtag a {
     background-color: none;
     color: var(--text);
 }
