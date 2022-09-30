@@ -227,7 +227,7 @@
     text-transform: uppercase;
     padding: 0;
     border: none;
-    margin: 0.75rem;
+    margin: 0.75rem 0;
 }
 
 .mapleplotter .expansion {
