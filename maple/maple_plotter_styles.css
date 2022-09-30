@@ -20,6 +20,9 @@
 .mapleplotter>h1 {
     color: rgb(var(--accent_first));
     line-height: 120%;
+    border: none;
+    font: 700 1.65rem 'jost';
+    margin: 1rem 0;
 }
 
 .mapleplotter>h1.special {
@@ -31,6 +34,7 @@
     background-image: linear-gradient(to bottom right, rgba(var(--accent_first), 1), rgba(var(--accent_second), 0.5));
     background-size: 100%;
     color: transparent;
+    border: none;
 }
 
 @keyframes open {
@@ -189,6 +193,8 @@
     justify-self: center;
     margin: 0 0.15rem;
     padding: 0.65rem;
+    font-style: normal;
+    font-family: 'FontAwesome';
 }
 
 .mapleplotter .char_overview .heart_status>i:hover {
