@@ -97,6 +97,10 @@
 .mapleplotter u,
 .mapleplotter a {
     color: rgba(var(--accent_first));
+    background: none;
+    opacity: 1;
+    -webkit-background-clip: revert!important;
+    -webkit-text-fill-color: revert;
 }
 
 .mapleplotter details summary::-webkit-details-marker,
