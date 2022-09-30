@@ -151,6 +151,7 @@
 .maple_tracker .table_of_contents ul li {
     margin: 0;
     border: none;
+    padding: 0.25rem 0;
 }
 
 .maple_tracker .trackable ul a,
