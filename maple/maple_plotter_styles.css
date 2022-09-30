@@ -23,6 +23,7 @@
     border: none;
     font: 700 1.65rem 'jost';
     margin: 1rem 0;
+    padding: 0;
 }
 
 .mapleplotter>h1.special {
@@ -224,6 +225,8 @@
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 0;
+    border: none;
 }
 
 .mapleplotter .expansion {
