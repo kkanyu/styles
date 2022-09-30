@@ -150,6 +150,7 @@
 .maple_tracker .trackable ul li,
 .maple_tracker .table_of_contents ul li {
     margin: 0;
+    border: none;
 }
 
 .maple_tracker .trackable ul a,
@@ -185,6 +186,10 @@
     text-transform: uppercase;
     vertical-align: top;
     border: 1px solid var(--accent);
+}
+
+.maple_tracker .trackable ul .comm {
+    background: none;
 }
 
 .maple_tracker .trackable .archived_threads h2::after {
