@@ -40,6 +40,7 @@
 
 .qxcomm .header i {
     font-size: 1.2rem;
+    font-family: 'FontAwesome'!important;
 }
 
 .qxcomm .header i:hover,
