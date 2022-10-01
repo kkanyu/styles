@@ -29,6 +29,10 @@
     color: var(--text);
 }
 
+.darkmode .qxcomm .messages ul>.unsent {
+    background: var(--postBack);
+}
+
 .qxcomm b,
 .qxcomm strong,
 .qxcomm i,
