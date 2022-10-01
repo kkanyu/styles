@@ -10,6 +10,25 @@
     border-radius: 0.25rem;
 }
 
+.darkmode .qxcomm {
+    background: var(--postBack);
+    color: var(--text);
+    border-color: var(--dark30);
+}
+
+.darkmode .qxcomm .header .icons img,
+.darkmode .qxcomm .messages ul>li,
+.darkmode .qxcomm .sending .chatbox,
+.darkmode .qxcomm .header,
+.darkmode .qxcomm .sending,
+.darkmode .qxcomm .messages ul>.audio .transcript {
+    border-color: var(--dark30);
+}
+
+.darkmode .qxcomm .messages ul>.audio .transcript {
+    color: var(--text);
+}
+
 .qxcomm b,
 .qxcomm strong,
 .qxcomm i,
