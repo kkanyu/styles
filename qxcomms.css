@@ -101,15 +101,20 @@
     font-size: 130%;
     margin: 0.5em auto 0;
     max-width: 255px;
+    font-family: inherit;
+    font-weight: bold;
+    padding-bottom: 0;
 }
 
 .qxcomm .header .recipient h2 {
-    color: #aaa;
+    color: #aaa!important;
     font-size: 85%;
     font-weight: normal;
+    font-family: inherit;
     letter-spacing: 0.1em;
     margin: 0.25em 0;
     text-transform: uppercase;
+    width: revert;
 }
 
 .qxcomm .header .recipient h2>i {
@@ -179,7 +184,6 @@
 .qxcomm .sending .chatbox span,
 .qxcomm .sending .chatbox i {
     align-self: center;
-    font-family: 'FontAwesome'!important;
     font-style: normal;
 }
 
@@ -196,6 +200,7 @@
 .qxcomm .sending .chatbox i {
     color: #aaa;
     font-size: 110%;
+    font-family: 'FontAwesome'!important;
 }
 
 .qxcomm .sending .send>i:hover {
