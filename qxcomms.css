@@ -340,6 +340,7 @@
 .qxcomm .messages ul>.audio {
     border: none;
     padding: 1em 0 0;
+    width: 100%;
 }
 
 .qxcomm .messages ul>.audio .clip {
@@ -396,7 +397,7 @@
     flex-flow: row nowrap;
 }
 
-.qxcomm .messages ul>.cash>i {
+.qxcomm .messages ul>.cash>.cashamt>i {
     font-family: 'FontAwesome'!important;
     font-style: normal;
     font-size: 1.55rem;
