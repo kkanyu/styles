@@ -41,6 +41,7 @@
 .qxcomm .header i {
     font-size: 1.2rem;
     font-family: 'FontAwesome'!important;
+    font-style: normal;
 }
 
 .qxcomm .header i:hover,
@@ -179,6 +180,7 @@
 .qxcomm .sending .chatbox i {
     align-self: center;
     font-family: 'FontAwesome'!important;
+    font-style: normal;
 }
 
 .qxcomm .sending .send>i {
@@ -187,6 +189,8 @@
     color: var(--accent);
     font-size: 110%;
     padding: 1em;
+    font-family: 'FontAwesome'!important;
+    font-style: normal;
 }
 
 .qxcomm .sending .chatbox i {
