@@ -21,11 +21,13 @@
 .darkmode .qxcomm .sending .chatbox,
 .darkmode .qxcomm .header,
 .darkmode .qxcomm .sending,
-.darkmode .qxcomm .messages ul>.audio .transcript {
+.darkmode .qxcomm .messages ul>.audio .transcript,
+.darkmode .qxcomm .header .recipient .members {
     border-color: var(--dark30);
 }
 
-.darkmode .qxcomm .messages ul>.audio .transcript {
+.darkmode .qxcomm .messages ul>.audio .transcript,
+.darkmode .qxcomm .header .recipient .members>a {
     color: var(--text);
 }
 
