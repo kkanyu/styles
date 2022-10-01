@@ -271,6 +271,7 @@
     border-color: rgb(207, 42, 42);
     color: rgb(207, 42, 42);
     font-style: italic;
+    min-width: 70px;
 }
 
 .qxcomm .unsent b,
