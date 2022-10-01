@@ -288,6 +288,8 @@
 .qxcomm .messages ul>.unsent::before {
     color: rgb(207, 42, 42);
     content: "[deleted]";
+    display: flex;
+    font-family: inherit;
     font-weight: bold;
     text-transform: uppercase;
 }
