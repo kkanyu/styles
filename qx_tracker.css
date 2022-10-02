@@ -97,6 +97,8 @@
 .qxtracker a {
     color: rgba(var(--accentRGB), 1);
     text-decoration: none;
+    background: none;
+    -webkit-text-fill-color: revert;
 }
 
 .qxtracker a:hover {
@@ -155,6 +157,12 @@
 .qxtracker .info h2 b {
     font-weight: bold;
     font-size: 1.15rem;
+    font-family: inherit;
+}
+
+.qxtracker .info h2 b {
+    background: none;
+    -webkit-text-fill-color: revert;
 }
 
 .qxtracker .info h3 {
@@ -165,6 +173,11 @@
     font-size: 0.75rem;
     padding: 0 0.25rem 0.15rem;
     white-space: nowrap;
+    background: none;
+    color: inherit;
+    -webkit-text-fill-color: revert!important;
+    text-transform: lowercase;
+    font-family: inherit;
 }
 
 .qxtracker .info h3::before {
@@ -237,6 +250,8 @@
     border-bottom: 2px solid rgb(var(--accentRGB));
     display: inline-block;
     padding: 0 0.25rem 0.15rem;
+    font-family: inherit;
+    font-size: 1.2rem;
 }
 
 .qxtracker .trackable h2::before {
@@ -281,6 +296,9 @@
     padding: 0.25rem 0.5rem 0 0;
     display: flex;
     flex-flow: row nowrap;
+    margin: 0;
+    width: auto;
+    border: none;
 }
 
 .qxtracker .trackable ul li:hover {
@@ -348,6 +366,10 @@
 
 .qxtracker .trackable ul .comm::before {
     content: "\f095";
+}
+
+.qxtracker .trackable ul li.comm {
+    background: none;
 }
 
 .qxtracker .trackable ul li::before,
