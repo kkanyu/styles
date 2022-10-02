@@ -104,6 +104,10 @@
     color: var(--text);
 }
 
+.darkmode .qxtracker .header .icon img {
+    border-color: var(--dark80);
+}
+
 .qxtracker b,
 .qxtracker a {
     color: rgba(var(--accentRGB), 1);
