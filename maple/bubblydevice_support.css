@@ -1,0 +1,14 @@
+.bubblydevice_bottom i, .bubblydevice_status i {
+    font-style: normal;
+    font-family: 'FontAwesome';
+}
+
+.bubblydevice_status i {
+    background: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.bubblydevice_ui.send > i {
+    opacity: 1;
+}
