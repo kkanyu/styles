@@ -93,12 +93,24 @@
     text-align: left;
 }
 
+.darkmode .qxtracker {
+    background: var(--postBack);
+    color: var(--text);
+    border-color: var(--dark30);
+}
+
+.darkmode .qxtracker .trackable ul li span a:nth-of-type(2):before,
+.darkmode .qxtracker .trackable ul li span b::before {
+    color: var(--text);
+}
+
 .qxtracker b,
 .qxtracker a {
     color: rgba(var(--accentRGB), 1);
     text-decoration: none;
     background: none;
     -webkit-text-fill-color: revert;
+    font-family: inherit;
 }
 
 .qxtracker a:hover {
