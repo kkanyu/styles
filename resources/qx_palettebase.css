@@ -8,8 +8,26 @@
     padding: 2em;
 }
 
+.darkmode .palette_container {
+    background: var(--postBack);
+    color: var(--text);
+    border-color: var(--dark30);
+}
+
 .palette_container>h1 {
     text-align: center;
+    margin: 0;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.palette_container h1, 
+.palette_container h2, 
+.palette_container h3 {
+    padding: 0;
+    color: var(--text);
 }
 
 .qx_swatches {
