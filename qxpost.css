@@ -43,8 +43,7 @@
 .qxpost {
     box-sizing: border-box!important;
     background-color: #fff;
-    border: 1px solid #aaa;
-    border-radius: 0.35rem;
+    border: 1px solid var(--dark30);
     color: #111;
     display: flex;
     flex-flow: column wrap;
@@ -60,10 +59,6 @@
 .darkmode .qxpost, .darkmode .qxpost .qtag a {
     background: var(--postBack);
     color: var(--text);
-}
-
-.darkmode .qxpost {
-    border: 1px solid var(--dark30);
 }
 
 .qxpost .qcontent {
