@@ -1,0 +1,118 @@
+    .ridrcon {
+        width: 275px;
+        font-family: poppins;
+        font-size: 11px;
+        color: #333;
+        line-height: 1.2em;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 auto;
+        border-radius: 1em;
+    }
+    
+    .ridrcon a {
+        border: none;
+        text-decoration: none;
+        color: #aaa;
+    }
+    
+    .ridrprofile {
+        display: flex;
+        width: 275px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        border-radius: 1em;
+        min-height: 150px;
+    }
+    
+    .ridrinfo {
+        text-align: left;
+        width: 75%;
+        margin: 0 auto;
+        align-self: end;
+        background-color: #fff;
+        padding: 15px 20px;
+        border-radius: 1em 1em 0 0;
+    }
+    
+    .ridrinfo h1 {
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0.5em 0 0.3em;
+        padding: 0;
+    }
+    
+    .ridrinfo h1 span {
+        font-weight: 400;
+    }
+    
+    .ridrinfo h2 {
+        font-size: 12px;
+        color: #808080!important;
+        font-weight: 400;
+        display: inline-flex;
+        margin: 0;
+        background: none;
+    }
+    
+    .ridrinfo h2 span {
+        padding: 0 5px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    
+    .ridrabout {
+        background-color: #fff;
+        border-radius: 1em;
+        border: 1px solid #ededed;
+        padding: 15px;
+        margin: 15px 0 0;
+        box-shadow: 1px 0 5px #ccc;
+    }
+    
+    .ridrabout::before {
+        content: "about me";
+        text-transform: uppercase;
+        font-weight: 700;
+        display: block;
+        margin: 0 0 5px;
+    }
+    
+    .ridroptions {
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: #fff;
+        border-radius: 1em;
+        border: 1px solid rgb(219, 223, 224);
+        margin: 15px 0 0;
+        padding: 15px;
+        justify-content: center;
+        gap: 0 25px;
+        box-shadow: 1px 0 5px #ccc;
+    }
+    
+    .ridroptions span {
+        font-size: 20px;
+        font-weight: 700;
+        transition: all 0.2s;
+    }
+    
+    .ridroptions span:hover {
+        filter: brightness(85%);
+    }
+    
+    .ridroptions .left {
+        color: #ff7161;
+    }
+    
+    .ridroptions .super,
+    .ridroptions .super a {
+        color: #9ee8f0;
+    }
+    
+    .ridroptions .right {
+        color: #89de71;
+    }
