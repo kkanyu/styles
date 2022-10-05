@@ -26,6 +26,14 @@
     border-color: var(--dark30);
 }
 
+.darkmode .qxcomm .messages ul>li:last-of-type {
+    border: 1px solid var(--dark30)!important;
+}
+
+.qxcomm .messages ul>li:last-of-type {
+    border: 1px solid #aaa!important;
+}
+
 .darkmode .qxcomm .messages ul>.audio .transcript,
 .darkmode .qxcomm .header .recipient .members>a {
     color: var(--text);
