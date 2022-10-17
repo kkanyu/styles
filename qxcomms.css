@@ -34,6 +34,10 @@
     border: 1px solid #aaa!important;
 }
 
+.qxcomm .messages ul>li[class="audio"]:last-of-type {
+    border: none!important;
+}
+
 .darkmode .qxcomm .messages ul>.audio .transcript,
 .darkmode .qxcomm .header .recipient .members>a {
     color: var(--text);
