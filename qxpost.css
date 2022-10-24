@@ -1,44 +1,4 @@
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
-    font-weight: normal;
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
-    font-weight: 500;
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
-    font-weight: bold;
-    font-style: oblique;
-}
+@import url('http://fonts.cdnfonts.com/css/arial-nova');
 
 .qxpost {
     box-sizing: border-box!important;
@@ -47,7 +7,7 @@
     color: #111;
     display: flex;
     flex-flow: column wrap;
-    font: normal 0.77rem/1.35rem 'GT Walsheim';
+    font: normal 0.78rem/1.3rem 'Arial Nova';
     margin: 0 auto;
     max-width: 485px;
     min-width: 450px;
@@ -67,7 +27,7 @@
 
 .qxpost .qcontent p:first-child::first-line {
     color: var(--accent);
-    font-weight: 500;
+    font-weight: normal;
     text-transform: uppercase;
 }
 
