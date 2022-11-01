@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'arial nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova-Italic.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova-Bold.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova-BoldItalic.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond-Italic.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova light';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova-Light.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond light';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond-Light.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova light';
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNova-LightItalic.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond light';
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond-LightItalic.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond-Bold.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'arial nova cond';
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://kkanyu.github.io/styles/webfonts/ArialNova/ArialNovaCond-BoldItalic.woff") format('woff')
+}
