@@ -7,7 +7,7 @@
     color: #111;
     display: flex;
     flex-flow: column wrap;
-    font: normal 0.78rem/1.3rem 'Arial Nova';
+    font: normal 0.78rem/1.3rem 'Arial Nova', sans-serif;
     margin: 0 auto;
     max-width: 485px;
     min-width: 450px;
