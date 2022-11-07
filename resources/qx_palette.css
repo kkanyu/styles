@@ -354,6 +354,11 @@
     --accentRGB: 252, 151, 165;
 }
 
+.qx_ahyun {
+    --accent: #a98baf;
+    --accentRGB: 169, 139, 175;
+}
+
 .qx_cael {
     --accent: #b4dcea;
     --accentRGB: 180, 220, 234;
