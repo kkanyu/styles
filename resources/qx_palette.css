@@ -358,3 +358,18 @@
     --accent: #b4dcea;
     --accentRGB: 180, 220, 234;
 }
+
+.qx_vian {
+    --accent: #d84552;
+    --accentRGB: 216, 69, 82;
+}
+
+.qx_dain {
+    --accent: #d79d00;
+    --accentRGB: 215, 157, 0;
+}
+
+.qx_eunwoo {
+    --accent: #D2B2D5
+    --accentRGB: 210, 178, 213;
+}
