@@ -295,6 +295,18 @@
     text-align: left;
 }
 
+.qxcomm .messages ul>li p {
+    margin: 1rem 0;
+}
+
+.qxcomm .messages ul>li p:first-of-type {
+    margin-top: 0;
+}
+
+.qxcomm .messages ul>li p:last-of-type {
+    margin-bottom: 0;
+}
+
 .qxcomm .messages ul>li::before {
     content: none;
 }
