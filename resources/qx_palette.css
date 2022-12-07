@@ -378,3 +378,43 @@
     --accent: #D2B2D5;
     --accentRGB: 210, 178, 213;
 }
+
+.qx_landon {
+  --accent: #97cbeb;
+  --accentRGB: 151, 203, 235;
+}
+
+.qx_haeryeong {
+  --accent: #f55995;
+  --accentRGB: 245, 89, 149;
+}
+
+.qx_hayato {
+  --accent: #ffad4f;
+  --accentRGB: 255, 173, 79;
+}
+
+.qx_yukari {
+  --accent: #994465;
+  --accentRGB: 153, 68, 101;
+}
+
+.qx_sarin {
+  --accent: #bf7db6;
+  --accentRGB: 191, 125, 182;
+}
+
+.qx_astrid {
+  --accent: #e57868;
+  --accentRGB: 229, 120, 104;
+}
+
+.qx_leif {
+  --accent: #88447b;
+  --accentRGB: 136, 68, 123;
+}
+
+.qx_sae {
+  --accent: #7bb73d;
+  --accentRGB: 123, 183, 61;
+}
