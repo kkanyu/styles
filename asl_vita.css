@@ -1,0 +1,11 @@
+.vita i, .vita b, .vita strong, .vita em {
+    opacity: 1;
+    color: var(--accent);
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-text-fill-color: revert;
+}
+
+.vita u {
+  border-bottom: 1px solid var(--accent);
+}
