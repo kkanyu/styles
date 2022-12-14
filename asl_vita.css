@@ -35,7 +35,7 @@
 }
 
 .darkmode .vita .royalcore3 {
-    outline: 15px solid var(--dark30);
+    outline: 15px solid var(--postBack);
     border-color: var(--text);
 }
 
