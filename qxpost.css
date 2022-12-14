@@ -7,7 +7,7 @@
     color: #111;
     display: flex;
     flex-flow: column wrap;
-    font: normal 0.78rem/1.3rem 'Arial Nova', sans-serif;
+    font: normal 0.78rem/1.2rem 'Arial Nova', sans-serif;
     margin: 0 auto;
     max-width: 485px;
     min-width: 450px;
@@ -25,7 +25,7 @@
     padding: 0 0 1rem;
 }
 
-.qxpost .qcontent p:first-child::first-line {
+/*.qxpost .qcontent p:first-child::first-line {
     color: var(--accent);
     font-weight: normal;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
 .qxpost .qcontent p:first-child::first-line em,
 .qxpost .qcontent p:first-child::first-line i {
     font-weight: inherit;
-}
+}*/
 
 .qxpost strong,
 .qxpost b,
