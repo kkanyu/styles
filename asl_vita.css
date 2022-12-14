@@ -13,3 +13,51 @@
 .royalcoretagbox {
     color: #000;
 }
+
+/** STYLES FOR DARK MODE **/
+
+.darkmode .vita .royalcorewords {
+    color: var(--text);
+}
+
+.darkmode .vita .royalcore1, 
+.darkmode .vita .royalcore2, 
+.darkmode .vita .royalcore5 {
+    background: var(--postBack);
+}
+
+.darkmode .vita .royalcore2 {
+    border-bottom-color: var(--dark30);
+}
+
+.darkmode .vita .royalcore5 {
+    border-top-color: var(--dark30);
+}
+
+.darkmode .vita .royalcore3 {
+    outline: 15px solid var(--dark30);
+    border-color: var(--text);
+}
+
+.darkmode #royalcore.vita {
+    background: var(--light);
+    border-color: var(--dark30);
+}
+
+.darkmode .vita .royalcore1 {
+    border-color: var(--dark30);
+}
+
+.darkmode .vita .royalcoreline {
+    background: var(--dark30);
+}
+
+.darkmode .vita .royalcoretagbox {
+    border-color: var(--dark30);
+    background: var(--postback);
+    color: var(--text);
+}
+
+.darkmode .vita .royalcoretagbox i::after {
+    color: var(--text);
+}
