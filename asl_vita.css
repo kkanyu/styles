@@ -4,7 +4,7 @@
     font-family: inherit;
     font-size: inherit;
     -webkit-text-fill-color: revert;
-    -webkit-background-clip: revert!important;
+    -webkit-background-clip: none!important;
 }
 
 .vita u {
