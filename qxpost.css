@@ -25,7 +25,7 @@
     padding: 0 0 1rem;
 }
 
-/*.qxpost .qcontent p:first-child::first-line {
+.qxpost .qcontent p:first-child::first-line {
     color: var(--accent);
     font-weight: normal;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
 .qxpost .qcontent p:first-child::first-line em,
 .qxpost .qcontent p:first-child::first-line i {
     font-weight: inherit;
-}*/
+}
 
 .qxpost strong,
 .qxpost b,
