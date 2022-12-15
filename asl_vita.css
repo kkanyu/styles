@@ -3,8 +3,8 @@
     color: var(--accent);
     font-family: inherit;
     font-size: inherit;
+    background: none;
     -webkit-text-fill-color: revert;
-    -webkit-background-clip: none!important;
 }
 
 .vita u {
