@@ -11,6 +11,10 @@
   border-bottom: 1px solid var(--accent);
 }
 
+.vita s {
+  text-decoration-color: var(--accent);
+}
+
 .royalcoretagbox {
     color: #000;
 }
