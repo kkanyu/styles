@@ -1,1 +1,13 @@
-hhe
+@font-face {
+  font-family: 'dank mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/DankMono/Dank%20Mono%20Regular.otf") format('otf');
+}
+
+@font-face {
+  font-family: 'dank mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/DankMono/Dank%20Mono%20Italic.otf") format('otf');
+}
