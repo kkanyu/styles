@@ -91,6 +91,13 @@
   margin: 0.5rem 0 1.25rem;
 }
 
+.qxplot_container .id_card .locks i,
+.qxplot_container .id_card summary .id_type i {
+  opacity: 1;
+  color: inherit;
+  font-size: inherit;
+}
+
 .qxplot_container .id_card .locks a {
   color: #444;
 }
@@ -197,12 +204,15 @@
 }
 
 .qxplot_container .info ul {
+  margin: 0;
   padding: 0 1rem;
   list-style: none;
 }
 
 .qxplot_container .info ul li {
   margin: 0.5rem;
+  width: initial;
+  border: none;
 }
 
 .qxplot_container .info ul li::before {
@@ -211,6 +221,7 @@
   color: var(--accent);
   display: block;
   float: left;
-  width: 1.25rem;
-  margin-left: -1.25rem;
+  width: 1.2rem;
+  margin-left: -1.55rem;
+  text-align: center;
 }
