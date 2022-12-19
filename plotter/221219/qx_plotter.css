@@ -27,8 +27,12 @@
 
 /** Dark mode styles. */
 .darkmode .qxplot_container,
-.darkmode .qxplot_container .id_card a {
+.darkmode .qxplot_container .id_card .locks a {
   color: var(--text);
+}
+
+.darkmode .qxplot_container .id_card .locks a.on {
+  color: lightpink;
 }
 
 /** General styles. */
