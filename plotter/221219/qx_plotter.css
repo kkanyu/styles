@@ -58,6 +58,10 @@
   color: var(--accent);
 }
 
+.qxplot_container .instructions p {
+  margin: 1em 0;
+}
+
 .qxplot_container .instructions u {
   border-bottom-color: var(--accent);
 }
