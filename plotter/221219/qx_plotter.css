@@ -51,10 +51,16 @@
 
 .qxplot_container a {
   text-decoration: none;
+  color: inherit;
+}
+
+.qxplot_container a:hover {
+  font-style: italic;
 }
 
 .qxplot_container .id_card {
   background: var(--postBack);
+  margin: 1rem 0;
 }
 
 .qxplot_container .id_card summary {
@@ -118,6 +124,10 @@
 
 .qxplot_container .id_card .locks a.on {
   color: rgb(255, 86, 86);
+}
+
+.qxplot_container .id_card .locks a:hover {
+  filter: saturate(150%) hue-rotate(45deg);
 }
 
 .qxplot_container .id_card .id_barcode {
