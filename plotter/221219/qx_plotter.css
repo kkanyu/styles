@@ -212,6 +212,7 @@
 .qxplot_container .info ul li {
   margin: 0.5rem;
   width: initial;
+  padding: revert;
   border: none;
 }
 
