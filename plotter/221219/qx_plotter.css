@@ -25,6 +25,12 @@
   display: none;
 }
 
+/** Dark mode styles. */
+.darkmode .qxplot_container,
+.darkmode .qxplot_container .id_card a {
+  color: var(--text);
+}
+
 /** General styles. */
 .qxplot_container {
   font: 400 0.75rem/1.3 'Arial Nova', sans-serif;
