@@ -49,6 +49,7 @@
   border: 1px solid var(--dark30);
   padding: 1.5rem 2rem;
   background: var(--postBack);
+  text-align: justify;
 }
 
 .qxplot_container .instructions h1 {
