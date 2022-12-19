@@ -3,15 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
 
 /** Define main accents. */
-.id_card.townsfolk {
+.qxplot_container.townsfolk {
   --accent: rgb(160, 202, 182);
 }
 
-.id_card.magical {
+.qxplot_container.magical {
   --accent: rgb(193, 178, 236);
 }
 
-.id_card.farmer {
+.qxplot_container.farmer {
   --accent: rgb(255, 178, 171);
 }
 
@@ -42,6 +42,19 @@
   width: 500px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+.qxplot_container .instructions {
+  margin: 2rem 0;
+  border: 1px solid var(--dark30);
+  padding: 1.5rem 2rem;
+}
+
+.qxplot_container .instructions h1 {
+  font: inherit;
+  font-size: 2rem;
+  border: none;
+  color: var(--accent);
 }
 
 .qxplot_container * {
