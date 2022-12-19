@@ -53,6 +53,10 @@
   text-decoration: none;
 }
 
+.qxplot_container .id_card {
+  background: var(--postBack);
+}
+
 .qxplot_container .id_card summary {
   border: 1px solid var(--accent);
   display: flex;
