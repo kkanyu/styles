@@ -1,0 +1,216 @@
+@import url("https://kkanyu.github.io/styles/webfonts/ArialNova/@font-face_arialnova.css");
+@import url("https://kkanyu.github.io/styles/webfonts/DankMono/@font-face_dankmono.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+
+/** Define main accents. */
+.id_card.townsfolk {
+  --accent: rgb(160, 202, 182);
+}
+
+.id_card.magical {
+  --accent: rgb(193, 178, 236);
+}
+
+.id_card.farmer {
+  --accent: rgb(255, 178, 171);
+}
+
+/** Reset details styles. */
+.qxplot_container details summary {
+  list-style: none;
+}
+
+.qxplot_container details summary::webkit-details-marker,
+.qxplot_container ::marker {
+  display: none;
+}
+
+/** General styles. */
+.qxplot_container {
+  font: 400 0.75rem/1.3 'Arial Nova', sans-serif;
+  color: #444;
+  width: 500px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.qxplot_container * {
+  padding: 0;
+  margin: 0;
+}
+
+.qxplot_container a {
+  text-decoration: none;
+}
+
+.qxplot_container .id_card summary {
+  border: 1px solid var(--accent);
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.qxplot_container .id_card summary .id {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 175px;
+}
+
+/** Top bar. */
+.qxplot_container .id_card summary .id_type {
+  background: var(--accent);
+  padding:0.5rem .75rem;
+  color: #fffffffa;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 1.25rem;
+}
+
+.qxplot_container .id_card .id {
+  padding: 1rem 0;
+}
+
+/** Left side. */
+.qxplot_container .id_card .id_data {
+  max-width: 25%;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.qxplot_container .id_card .id_data img {
+  max-width: 85%;
+  padding: 0.5rem;
+  border: 1px solid var(--accent);
+}
+
+.qxplot_container .id_card .locks {
+  font-size: 1rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.qxplot_container .id_card .locks a {
+  color: #444;
+}
+
+.qxplot_container .id_card .locks a.on {
+  color: rgb(255, 86, 86);
+}
+
+.qxplot_container .id_card .id_barcode {
+  color: var(--accent);
+  font: 400 2rem/.1rem 'Libre Barcode 128';
+}
+
+/** Right side. */
+.qxplot_container .id_card .id_info {
+  flex-grow: 1;
+  padding: 0 1rem 0 0;
+  font-size: 0.75rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: space-between;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.qxplot_container .id_card .id_info > div {
+  margin: 0.25rem 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2rem;
+}
+
+.qxplot_container .id_card .id_info > div > div {
+  display: inline-block;
+  font-family: 'Dank Mono';
+}
+
+.qxplot_container .id_card .id_info > div > div::after {
+  font: 400 0.6rem/1 'Arial Nova', sans-serif;
+  margin-top: 0.1rem;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  color: var(--accent);
+}
+
+/** Titles */
+.qxplot_container .id_info .name::after {
+  content: "full name";
+}
+
+.qxplot_container .id_info .gender::after {
+  content: "gender";
+}
+
+.qxplot_container .id_info .pronouns::after {
+  content: "pronouns";
+}
+
+.qxplot_container .id_info .height::after {
+  content: "height";
+}
+
+.qxplot_container .id_info .species::after {
+  content: "species";
+}
+
+.qxplot_container .id_info .origin::after {
+  content: "origin";
+}
+
+.qxplot_container .id_info .dob::after {
+  content: "date of birth";
+}
+
+.qxplot_container .id_info .age::after {
+  content: "age";
+}
+
+.qxplot_container .id_info .zodiac::after {
+  content: "zodiac";
+}
+
+.qxplot_container .id_info .occupation::after {
+  content: "occupation";
+}
+
+/** Summary box. */
+.qxplot_container .info {
+  border: 1px solid var(--accent);
+  border-top: none;
+  padding: 0.75rem 1.25rem;
+  text-align: justify;
+}
+
+.qxplot_container .info strong,
+.qxplot_container .info em {
+  color: var(--accent);
+}
+
+.qxplot_container .info u {
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.qxplot_container .info ul {
+  padding: 0 1rem;
+  list-style: none;
+}
+
+.qxplot_container .info ul li {
+  margin: 0.5rem;
+}
+
+.qxplot_container .info ul li::before {
+  content: "+";
+  font-weight: 900;
+  color: var(--accent);
+  display: block;
+  float: left;
+  width: 1.25rem;
+  margin-left: -1.25rem;
+}
