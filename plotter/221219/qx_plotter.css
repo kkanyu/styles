@@ -3,15 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
 
 /** Define main accents. */
-.qxplot_container.townsfolk {
+.qxplot_container .townsfolk {
   --accent: rgb(160, 202, 182);
 }
 
-.qxplot_container.magical {
+.qxplot_container .magical {
   --accent: rgb(193, 178, 236);
 }
 
-.qxplot_container.farmer {
+.qxplot_container .farmer {
   --accent: rgb(255, 178, 171);
 }
 
