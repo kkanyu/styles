@@ -174,7 +174,7 @@
 
 .qxplot_container .id_card .id_info > div > div {
   display: inline-block;
-  font-family: 'Dank Mono';
+  font-family: 'Dank Mono', monospace;
 }
 
 .qxplot_container .id_card .id_info > div > div::after {
