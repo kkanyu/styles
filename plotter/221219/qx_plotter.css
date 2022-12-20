@@ -101,7 +101,7 @@
 /** Top bar. */
 .qxplot_container .id_card summary .id_type {
   background: var(--accent);
-  padding:0.5rem .75rem;
+  padding: 0.5rem .75rem;
   color: #fffffffa;
   text-transform: uppercase;
   display: flex;
@@ -162,8 +162,8 @@
 /** Right side. */
 .qxplot_container .id_card .id_info {
   flex-grow: 1;
-  padding: 0 1rem 0 0;
-  font-size: 0.75rem;
+  padding: 0 1rem;
+  font-size: 0.7rem;
   display: flex;
   flex-flow: column nowrap;
   align-content: space-between;
