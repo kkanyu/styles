@@ -116,11 +116,12 @@
 
 /** Left side. */
 .qxplot_container .id_card .id_data {
-  max-width: 25%;
+  max-width: 20%;
   padding: 0 1rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
 }
 
 .qxplot_container .id_card .id_data img {
