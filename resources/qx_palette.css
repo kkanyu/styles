@@ -423,3 +423,13 @@
     --accent: #487d49;
     --accentRGB: 72, 125, 73;
 }
+
+.qx_rhian {
+    --accent: #402533;
+    --accentRGB: 64, 37, 51;
+}
+
+.qx_yuzuri {
+    --accent: #0099a6;
+    --accentRGB: 0, 153, 166;
+}
