@@ -433,3 +433,13 @@
     --accent: #0099a6;
     --accentRGB: 0, 153, 166;
 }
+
+.qx_ari {
+    --accent: #b8363b;
+    --accentRGB: 184, 54, 59;
+}
+
+.qx_hisoka {
+    --accent: #bfd1b3;
+    --accentRGB: 191, 209, 179;
+}
