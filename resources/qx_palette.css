@@ -443,3 +443,8 @@
     --accent: #bfd1b3;
     --accentRGB: 191, 209, 179;
 }
+
+.qx_yuxi {
+    --accent: #f7caca;
+    --accentRGB: 247, 202, 202;
+}
