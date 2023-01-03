@@ -448,3 +448,8 @@
     --accent: #f7caca;
     --accentRGB: 247, 202, 202;
 }
+
+.qx_pandora {
+    --accent: #a5929d;
+    --accentRGB: 165, 146, 157;
+}
