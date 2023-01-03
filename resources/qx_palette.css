@@ -453,3 +453,8 @@
     --accent: #a5929d;
     --accentRGB: 165, 146, 157;
 }
+
+.qx_hayden {
+    --accent: #ffc0a0;
+    --accentRGB: 255, 192, 160;
+}
