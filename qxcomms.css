@@ -34,7 +34,8 @@
     border: 1px solid #aaa!important;
 }
 
-.qxcomm .messages ul>li[class="audio"]:last-of-type {
+.qxcomm .messages ul>li[class="audio"]:last-of-type,
+.qxcomm .messages ul>li[class="system"]:last-of-type {
     border: none!important;
 }
 
@@ -378,6 +379,15 @@
     font-size: 1rem;
     position: relative;
     margin: -1rem 0 0 -1.5rem;
+}
+
+.qxcomm .messages ul>.system {
+    max-width: 70%;
+    font: 500 0.65rem/150% 'inter', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent);
+    align-self: center;
 }
 
 .qxcomm .messages ul>.note {
