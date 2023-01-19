@@ -458,3 +458,8 @@
     --accent: #ffc0a0;
     --accentRGB: 255, 192, 160;
 }
+
+.qx_carson {
+    --accent: #758e77;
+    --accentRGB: 117, 142, 119;
+}
