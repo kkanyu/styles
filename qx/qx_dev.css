@@ -11,6 +11,18 @@
   text-align: justify;
 }
 
+.qxdev ol li {
+  margin: 1rem 0;
+  border: none;
+}
+
+.qxdev ol li::before {
+  font-family: "Dank Mono", monospace;
+  letter-spacing: initial;
+  color: var(--accent);
+  font-size: inherit;
+}
+
 .qxdev b, .qxdev strong, .qxdev em, .qxdev i {
   color: var(--accent);
   font-family: inherit;
