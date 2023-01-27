@@ -20,6 +20,16 @@
   -webkit-text-fill-color: revert;
 }
 
+.qxdev a {
+    font-family: 'Dank Mono', monospace;
+    font-style: italic;
+    color: var(--accent);
+}
+
+.qxdev a:hover {
+  filter: hue-rotate(45deg);
+}
+
 .qxdev u {
   text-decoration: none;
   border-bottom: 1px solid var(--accent);
