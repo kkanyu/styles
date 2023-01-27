@@ -135,7 +135,6 @@
   display: inline-flex;
   font-family: inherit;
   padding: 0;
-  margin: 1em 0;
   flex-flow: column;
   justify-content: center;
   border-bottom: 1px solid var(--accent);
