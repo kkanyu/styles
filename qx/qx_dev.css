@@ -1,0 +1,121 @@
+@import url("https://kkanyu.github.io/styles/webfonts/ArialNova/@font-face_arialnova.css");
+@import url("https://kkanyu.github.io/styles/webfonts/DankMono/@font-face_dankmono.css");
+
+.qxdev {
+  font: 400 0.75rem/1.3 "Arial Nova", sans-serif;
+  color: #222;
+  width: 90%;
+  max-width: 450px;
+  min-width: 350px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.qxdev b, .qxdev strong, .qxdev em, .qxdev i {
+  color: var(--accent);
+}
+
+.qxdev u {
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding: 0 0 0.02rem;
+}
+
+.qxdev hr {
+  border: none;
+  border-top: 1px solid var(--accent);
+  max-width: 25%;
+  margin: 1rem auto;
+}
+
+/** Reset details styles. */
+.qxdev details summary {
+  list-style: none;
+}
+
+.qxdev details summary::webkit-details-marker,
+.qxdev .notes ::marker {
+  display: none;
+}
+
+.qxdev .notes summary {
+  font-size: 0.6rem;
+  color: var(--accent);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--accent);
+  font-weight: 700;
+  background: rgba(var(--accentRGB), 0.12);
+  display: inline-flex;
+  gap: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.qxdev .notes summary em {
+  font-weight: 400;
+  color: #777;
+  align-self: top;
+  text-transform: lowercase;
+}
+
+.qxdev details > div {
+  padding: 1rem 2rem;
+  border: 1px solid var(--accent);
+  margin-top: -1px;
+}
+
+.qxdev .content {
+  border: 1px solid #999;
+  padding: 1.5rem 3rem;
+  margin: 1rem 0;
+}
+
+.qxdev .content .header {
+  display: flex;
+  justify-content: center;
+}
+
+.qxdev .content > h1 {
+  font-size: 1.15rem;
+  display: flex;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.qxdev .content > h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  display: flex;
+}
+
+.qxdev .content > h2::after {
+  content: "\00a0";
+  display: flex;
+  height: 1px;
+  flex-grow: 1;
+  background: var(--accent);
+  align-self: center;
+  margin: 0 0 0 0.5rem;
+}
+
+.qxdev .content > h1::before {
+  content: "\00a0";
+  display: flex;
+  height: 1px;
+  flex-grow: 1;
+  background: var(--accent);
+  align-self: center;
+  margin: 0 0.5rem 0 0;
+}
+
+.qxdev h1.title {
+  max-width: 90%;
+  text-align: center;
+  font-size: 1.25rem;
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--accent);
+}
