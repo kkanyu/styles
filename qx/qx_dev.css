@@ -11,6 +11,10 @@
   text-align: justify;
 }
 
+.qxdev ol {
+  padding-inline-start: 10px;
+}
+
 .qxdev ol li {
   margin: 1rem 0;
   border: none;
