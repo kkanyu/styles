@@ -3,7 +3,7 @@
 
 .qxdev {
   font: 400 0.75rem/1.3 "Arial Nova", sans-serif;
-  color: #222;
+  color: var(--text);
   width: 90%;
   max-width: 450px;
   min-width: 350px;
@@ -81,9 +81,11 @@
 }
 
 .qxdev .content {
-  border: 1px solid #999;
+  border: 1px solid var(--dark30);
   padding: 1.5rem 3rem;
   margin: 1rem 0;
+  color: var(--text);
+  background: var(--postBack);
 }
 
 .qxdev .content .header {
