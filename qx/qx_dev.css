@@ -104,6 +104,7 @@
   background: none;
   font-family: inherit;
   color: inherit!important;
+  margin: 1rem 0;
 }
 
 .qxdev .content > h2::after {
