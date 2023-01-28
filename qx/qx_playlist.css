@@ -24,6 +24,7 @@
   border: 1px solid var(--accent);
   padding: 1.5rem 2rem;
   align-items: center;
+  background: var(--postBack);
 }
 
 .qxplaylist .header > h1 {
@@ -60,11 +61,12 @@
 }
 
 .qxplaylist .playlist {
-  border: 1px solid #999;
+  border: 1px solid var(--dark30);
   padding: 1.5rem 3rem;
   margin: 1rem 0;
   max-height: 350px;
   overflow-y: scroll;
+  background: var(--postBack);
 }
 
 .qxplaylist .playlist ol {
@@ -116,7 +118,7 @@
 .qxplaylist .playlist ol li h2 {
   font-family: "Dank Mono", monospace;
   font-size: 0.7rem;
-  border: 1px solid #aaa;
+  border: 1px solid var(--dark30);
   padding: 0.25rem 0.5rem;
   font-style: italic;
   flex-grow: 2;
