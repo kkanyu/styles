@@ -130,6 +130,7 @@
   margin-top: -1px;
   text-transform: none;
   color: inherit;
+  -webkit-text-fill-color: revert;
 }
 
 .qxplaylist .playlist ol li:hover {
