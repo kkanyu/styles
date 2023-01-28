@@ -1,0 +1,128 @@
+@import url("https://kkanyu.github.io/styles/webfonts/ArialNova/@font-face_arialnova.css");
+@import url("https://kkanyu.github.io/styles/webfonts/DankMono/@font-face_dankmono.css");
+
+.qxplaylist {
+  font: 400 0.75rem/1.3 "Arial Nova", sans-serif;
+  width: 90%;
+  max-width: 450px;
+  min-width: 350px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.qxplaylist ::-webkit-scrollbar {
+  width: 2px;
+}
+
+.qxplaylist ::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+.qxplaylist .header {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid var(--accent);
+  padding: 1.5rem 2rem;
+  align-items: center;
+}
+
+.qxplaylist .header > h1 {
+  font: inherit;
+  font-size: 1.1rem;
+  font-weight: 700;
+  max-width: 60%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+.qxplaylist x {
+  flex-grow: 1;
+  height: 1px;
+  background: var(--accent);
+  margin: 0 0.5rem;
+  min-width: 10%;
+}
+
+.qxplaylist .header > a {
+  font-size: 2.25rem;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.qxplaylist .header > a:hover {
+  filter: hue-rotate(75deg);
+}
+
+.qxplaylist .playlist {
+  border: 1px solid #999;
+  padding: 1.5rem 3rem;
+  margin: 1rem 0;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.qxplaylist .playlist ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: count;
+}
+
+.qxplaylist .playlist ol li::before {
+  content: counter(count, decimal-leading-zero);
+  width: 2rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  background: rgba(var(--accentRGB), 0.12);
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  flex-shrink: 0;
+}
+
+.qxplaylist .playlist ol li {
+  counter-increment: count;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+
+.qxplaylist .playlist ol li > span {
+  text-align: right;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+.qxplaylist .playlist ol li h2,
+.qxplaylist .playlist ol li h3 {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+.qxplaylist .playlist ol li h2 {
+  font-family: "Dank Mono", monospace;
+  font-size: 0.7rem;
+  border: 1px solid #aaa;
+  padding: 0.25rem 0.5rem;
+  font-style: italic;
+  flex-grow: 2;
+}
+
+.qxplaylist .playlist ol li h3 {
+  font-size: 0.7rem;
+  background: rgba(var(--accentRGB), 0.12);
+  border: 1px solid var(--accent);
+  padding: 0.15rem 0.5rem;
+  font-style: italic;
+  margin-top: -1px;
+}
+
+.qxplaylist .playlist ol li:hover {
+  filter: hue-rotate(75deg);
+}
