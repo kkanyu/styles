@@ -20,6 +20,12 @@
   border: none;
 }
 
+.qxdev.toc ol li {
+    margin: 1rem 0 0;
+    padding: 0;
+    border: none;
+}
+
 .qxdev ol li::before {
   font-family: "Dank Mono", monospace;
   letter-spacing: initial;
