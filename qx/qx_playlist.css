@@ -115,6 +115,7 @@
 
 .qxplaylist .playlist ol li h2 {
   font-family: "Dank Mono", monospace;
+  text-transform: lowercase;
   font-size: 0.7rem;
   border: 1px solid var(--dark30);
   padding: 0.25rem 0.5rem;
