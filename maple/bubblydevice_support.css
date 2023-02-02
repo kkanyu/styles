@@ -12,3 +12,9 @@
 .bubblydevice_ui.send > i {
     opacity: 1;
 }
+
+.bubblydevice_recipient i {
+    font-family: inherit;
+    opacity: 1;
+    color: inherit;
+}
