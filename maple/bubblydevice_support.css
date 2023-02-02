@@ -18,3 +18,11 @@
     opacity: 1;
     color: inherit;
 }
+
+.bubblydevice .fa-classic, .bubblydevice .fa-regular, 
+.bubblydevice .fa-solid, .bubblydevice .far, 
+.bubblydevice .fas {
+    font-family: "FontAwesome"!important;
+    font-style: inherit!important;
+    opacity: 1!important;
+}
