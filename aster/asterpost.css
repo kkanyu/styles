@@ -18,6 +18,9 @@
 .asterpost u,
 .asterpost a {
     color: var(--accent);
+    font-family: inherit;
+    opacity: 1;
+    -webkit-text-fill-color: revert;
 }
 
 .asterpost a {
