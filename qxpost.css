@@ -66,6 +66,9 @@
 
 .qxpost .qcontent u {
     color: inherit;
+    text-decoration: none;
+    padding: 1px 0;
+    border-bottom: 1px solid var(--accent);
 }
 
 .qxpost .qtag {
