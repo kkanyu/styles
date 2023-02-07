@@ -463,3 +463,8 @@
     --accent: #758e77;
     --accentRGB: 117, 142, 119;
 }
+
+.qx_elu {
+    --accent: #a26e64;
+    --accentRGB: 162, 110, 100;
+}
