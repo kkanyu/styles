@@ -468,3 +468,8 @@
     --accent: #a26e64;
     --accentRGB: 162, 110, 100;
 }
+
+.qx_altair {
+    --accent: #f58c58;
+    --accentRGB: 245, 140, 88;
+}
