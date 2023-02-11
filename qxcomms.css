@@ -27,7 +27,7 @@
 }
 
 .darkmode .qxcomm .messages ul>li:last-of-type {
-    border: 1px solid var(--dark30)!important;
+    border: 1px solid var(--dark30);
 }
 
 .qxcomm .messages ul>li:last-of-type {
