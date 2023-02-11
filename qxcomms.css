@@ -388,6 +388,8 @@
     text-transform: uppercase;
     color: var(--accent);
     align-self: center;
+    border: none;
+    padding: inherit;
 }
 
 .qxcomm .messages ul>.note {
