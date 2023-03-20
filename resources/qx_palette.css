@@ -473,3 +473,8 @@
     --accent: #f58c58;
     --accentRGB: 245, 140, 88;
 }
+
+.qx_yulran {
+    --accent: #353554;
+    --accentRGB: 53, 53, 84;
+}
