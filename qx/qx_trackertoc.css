@@ -1,0 +1,102 @@
+.qxdirectory {
+max-width: 500px;
+margin: 2em auto;
+font: 500 0.75rem/185% 'GT Walsheim';
+box-sizing: border-box!important;
+text-align: left;
+color: #333;
+}
+
+.qxdirectory * {
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+.qxdirectory .header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem 1rem;
+}
+
+.qxdirectory .active {
+margin: 1em 0 2em;
+border: 1px solid #aaa;
+border-radius: 0.25rem;
+}
+
+.qxdirectory .header h2 {
+text-transform: lowercase;
+background: none;
+font-size: 1.25rem;
+font-family: inherit;
+}
+
+.qxdirectory .header i {
+font-size: 150%;
+}
+
+.qxdirectory .list {
+border-top: 1px dashed #aaa;
+padding: 1rem 2rem;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+font: 500 0.75rem/145% 'GT Walsheim';
+}
+
+.qxdirectory .list a {
+text-decoration: none;
+margin: 0.15rem 0.5rem 0.15rem 0;
+border-bottom: 2px solid rgb(125, 125, 125);
+font-size: 0.75rem;
+padding: 0 0.25rem 0.15rem;
+color: var(--text);
+}
+
+.qxdirectory .list a::before {
+color: rgb(125, 125, 125);
+content: "#";
+font-weight: bold;
+text-decoration: none;
+margin: 0 0.25rem 0 0;
+}
+
+.qxdirectory .list a.m {
+border-bottom: 2px solid rgb(138, 206, 233);
+}
+
+.qxdirectory .list a.m::before,
+.qxdirectory .list a.m:hover {
+color: rgb(138, 206, 233);
+}
+
+.qxdirectory .list a.f {
+border-bottom: 2px solid rgb(255, 167, 192);
+}
+
+.qxdirectory .list a.f::before,
+.qxdirectory .list a.f:hover {
+color: rgb(255, 167, 192);
+}
+
+.qxdirectory .list a.n {
+border-bottom: 2px solid rgb(255, 222, 146);
+}
+
+.qxdirectory .list a.n::before,
+.qxdirectory .list a.n:hover {
+color: rgb(255, 222, 146);
+}
+
+.qxdirectory .list a:hover {
+font-style: italic;
+filter: hue-rotate(45deg);
+}
+
+.qxdirectory .list a i {
+display: block;
+font-size: x-large;
+margin: 0 auto 0.2em;
+}
