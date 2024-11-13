@@ -4,3 +4,10 @@
   font-weight: 400;
   src: url("https://kkanyu.github.io/styles/webfonts/SofiaPro/Sofia%20Pro%20Regular.ttf") format('ttf');
 }
+
+@font-face {
+  font-family: 'sofia pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://kkanyu.github.io/styles/webfonts/SofiaPro/Sofia%20Pro%20Regular%20Italic.ttf") format('ttf');
+}
