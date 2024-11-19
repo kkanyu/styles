@@ -1,103 +1,41 @@
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Black.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BoldIt.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BoldIt.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-RegularOblique.ttf") format('truetype');
+    font-weight: normal;
+    font-style: oblique;
 }
 
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBdIt.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBdIt.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Light.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-MediumOblique.ttf") format('truetype');
+    font-weight: 500;
+    font-style: oblique;
 }
 
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BlackIt.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BlackIt.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Bold.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-LightIt.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-LightIt.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans Condensed';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BoldCond.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-BoldCond.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Italic.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBd.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Regular.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans Condensed';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBdCn.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-SemiBdCn.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Harmonia Sans Condensed';
-  src: url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Cond.woff2') format('woff2'),
-    url('https://kkanyu.github.io/styles/webfonts/HarmoniaSans/HarmoniaSansProCyr-Cond.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'GT Walsheim';
+    src: url("https://kkanyu.github.io/styles/webfonts/GTWalsheimPro-BoldOblique.ttf") format('truetype');
+    font-weight: bold;
+    font-style: oblique;
 }
