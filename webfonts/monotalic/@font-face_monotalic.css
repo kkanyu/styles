@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Monotalic';
+  font-family: 'Monotalic Narrow';
   font-style: normal;
   font-weight: 300;
   src: local('Monotalic Narrow Light'), local('Monotalic-Narrow-Light'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Monotalic';
+  font-family: 'Monotalic Narrow';
   font-style: normal;
   font-weight: normal;
   src: local('Monotalic Narrow'), local('Monotalic-Narrow'),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: 'Monotalic';
+  font-family: 'Monotalic Narrow';
   font-style: normal;
   font-weight: 500;
   src: local('Monotalic Narrow Medium'), local('Monotalic-Narrow-Medium'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: 'Monotalic';
+  font-family: 'Monotalic Narrow';
   font-style: normal;
   font-weight: 700;
   src: local('Monotalic Narrow Bold'), local('Monotalic-Narrow-Bold'),
