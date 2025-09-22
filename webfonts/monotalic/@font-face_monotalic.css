@@ -3,9 +3,9 @@
   font-style: normal;
   font-weight: 300;
   src: local('Monotalic Narrow Light'), local('Monotalic-Narrow-Light'),
-    url('Monotalic-NarrowLight.woff2') format('woff2'),
-    url('Monotalic-NarrowLight.woff') format('woff'),
-    url('Monotalic-NarrowLight.ttf') format('truetype');
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowLight.woff2') format('woff2'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowLight.woff') format('woff'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowLight.ttf') format('truetype');
 }
 
 @font-face {
@@ -13,9 +13,9 @@
   font-style: normal;
   font-weight: normal;
   src: local('Monotalic Narrow'), local('Monotalic-Narrow'),
-    url('Monotalic-Narrow.woff2') format('woff2'),
-    url('Monotalic-Narrow.woff') format('woff'),
-    url('Monotalic-Narrow.ttf') format('truetype');
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-Narrow.woff2') format('woff2'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-Narrow.woff') format('woff'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-Narrow.ttf') format('truetype');
 }
 
 @font-face {
@@ -23,9 +23,9 @@
   font-style: normal;
   font-weight: 500;
   src: local('Monotalic Narrow Medium'), local('Monotalic-Narrow-Medium'),
-    url('Monotalic-NarrowMedium.woff2') format('woff2'),
-    url('Monotalic-NarrowMedium.woff') format('woff'),
-    url('Monotalic-NarrowMedium.ttf') format('truetype');
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowMedium.woff2') format('woff2'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowMedium.woff') format('woff'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowMedium.ttf') format('truetype');
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Monotalic Narrow Bold'), local('Monotalic-Narrow-Bold'),
-    url('Monotalic-NarrowBold.woff2') format('woff2'),
-    url('Monotalic-NarrowBold.woff') format('woff'),
-    url('Monotalic-NarrowBold.ttf') format('truetype');
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowBold.woff2') format('woff2'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowBold.woff') format('woff'),
+    url('https://kkanyu.github.io/styles/webfonts/monotalic/Monotalic-NarrowBold.ttf') format('truetype');
 }
