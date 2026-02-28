@@ -148,7 +148,7 @@
     border-radius: 1rem;
     display: flex;
     flex-flow: row wrap;
-    height: 85px;
+    /*height: 85px;*/
     justify-content: center;
     margin: 0.45rem 0 0.45rem 1rem;
     overflow-y: scroll;
@@ -232,6 +232,7 @@
     padding: 0;
     border: none;
     margin: 0.75rem 0;
+    text-shadow: none;
 }
 
 .mapleplotter .expansion {
