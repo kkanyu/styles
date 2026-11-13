@@ -548,9 +548,7 @@ hr {
   margin: 0;
 }
 
-#sticky-note .entry-header h2::before {
-  content: "\E3E2";
-  font-family: "Phosphor-Light" !important;
+#sticky-note .entry-header h2 i {
   margin-right: calc(var(--padding) * 0.75);
   background: var(--colour-400);
   color: var(--colour-10);
@@ -656,8 +654,7 @@ u {
 }
 
 .content_warning::before {
-  content: '\E4E0\00a0\00a0 WARNING';
-  font-family: "Phosphor-Light", var(--body-font) !important;
+  content: 'WARNING';
   margin: calc(var(--padding) * 0.7) 0;
   display: flex;
   font-size: calc(var(--base-size));
