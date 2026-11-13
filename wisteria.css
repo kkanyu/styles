@@ -36,7 +36,6 @@
   --private: url(https://b.l3n.co/iq7fiCcw.png) center left no-repeat !important;
   --locked: url(https://b.l3n.co/Hdv980Dq.png) center left no-repeat !important;
   --customs: url(https://d.l3n.co/VnUfO5em.png) center left no-repeat !important;
-  --grid: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23ffffff00'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='1' stroke='%23ffffffff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
 }
 
 /* FONT DEFINITIONS: IMPORT */
@@ -123,7 +122,7 @@ body {
 }
 
 #primary_wrapper {
-  background: linear-gradient(0deg, color-mix(in srgb, var(--colour-300), transparent 85%) 0%, color-mix(in srgb, var(--colour-400), transparent 85%) 100%), var(--grid);
+  background: linear-gradient(0deg, color-mix(in srgb, var(--colour-300), transparent 85%) 0%, color-mix(in srgb, var(--colour-400), transparent 85%) 100%);
 }
 
 /* GENERAL ELEMENTS */
@@ -399,8 +398,6 @@ hr {
   background: color-mix(in srgb, var(--colour-200), transparent 60%);
   font-size: calc(var(--base-size) * 0.75);
   text-transform: uppercase;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 #lj_controlstrip input[type="submit"]:hover {
@@ -655,6 +652,7 @@ u {
 
 .content_warning::before {
   content: 'WARNING';
+  font-family: "Phosphor-Light", var(--body-font) !important;
   margin: calc(var(--padding) * 0.7) 0;
   display: flex;
   font-size: calc(var(--base-size));
